@@ -22,7 +22,7 @@ function SartegyTeam () {
                 </div>
 
                 <div className="discriptionBox">
-                    <div className="forGroup">
+                        <div className="forGroup">
                             <h3>STRATEGY</h3>
                             <p>STAIRWAY uses the best combination mood of advertising which is enhanced by our media partners, commission agents and personal selling by our team, and cooperative exhibitions to promote our products and services. Organized seminars, customer presentations to provide quality machines, spare parts, equipment, accessories, and maintenance; on-time delivery and also outstanding after-sales service to meet our customers' needs.</p>
                         </div>

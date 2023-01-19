@@ -2,10 +2,38 @@
 // import Form from 'react-bootstrap/Form';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import Home from "../home/home";
+import '../../App.css';
+import Output from '../footer/output';
 import {Link, Outlet} from "react-router-dom";
 import logo from "../../assets/logo/stairway-logo.png";
 
 function Layout() {
+
+
+    // const navBody = document.querySelector(".navBody");
+    // document.getElementById("btn").addEventListener("Click", function () {
+    //     console.log("hi");
+    // })
+
+    const navBody = () => {
+        document.querySelector(".navBody");
+    }    
+    
+
+    const btn = ()=>{
+        navBody.classList.toggle("add");
+    }
+
+    // console.log(menubar.innerHTML);
+    // const manubar = ()=>{
+    //     navBody.toggle("add");
+    // }
+
+    // manubar.addEventListener('click', ()=>{
+    //     console.log("hi");
+    // })
+
+
       return(
         <>
             <div className = "head">
@@ -63,16 +91,14 @@ function Layout() {
                 </ul>
                 
                </div>
-               <div className="manubar">
+               <div className="manubar" onClick={btn}>
                         <span>A</span>
                         <span>B</span>
                         <span>C</span>
                 </div>
+                {/* <button >click</button> */}
             </div>
-            <Outlet/>
-
-            
-            
+            <Output output = {<Outlet/>}></Output>      
         </>
       )
 }

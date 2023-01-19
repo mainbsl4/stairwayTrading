@@ -18,7 +18,7 @@
 
 .head .logo{
     width: 25%;
-    height: 70px;
+    height: auto;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -129,9 +129,65 @@
     margin-top: 20px;
 }
 
-.miniImgSec .ImgBody img{
-    width: 100%;
+
+.miniImgSec .ImgBody {
+    height: 180px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow:  4px 4px 5px 0px #0001, 
+    5px 5px 15px 0px #0001,
+    6px 6px 15px 0px #0001,
+    /* 7px 7px 15px 0px #0001, */
+    -7px -7px 15px 0px #ffffff,
+    -4px -4px 5px 0px #ffffff;
+    position: relative;
 }
+
+.miniImgSec .ImgBody .shadow,
+.miniImgSec .ImgBody .bottomTitle{
+    position: absolute;
+}
+
+
+
+
+.miniImgSec .ImgBody .shadow{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.miniImgSec .ImgBody .bottomTitle{
+    width: 100%;
+    height: 50px;
+    bottom: -50px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a4b0be00;
+}
+
+
+
+.miniImgSec .ImgBody:hover .shadow{
+    transition: .5s ease-in-out;
+    background-color: #a4b0be5a;
+}
+
+.miniImgSec .ImgBody:hover .bottomTitle{
+    bottom: 0px;
+    transition: bottom .5s ease-in-out;
+}
+/* .miniImgSec .ImgBody img{
+    width: 100%;
+} */
+
+
+
+
+
 
 /* end mini Image section  */
 
@@ -139,41 +195,54 @@
 
 
 
-.welcomeSection, .aboutUsSection, .MissinIntegritySection{
+.welcomeSection{
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
   
 .sectionHeader{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     /* margin-top: ; */
 }
   
 .sectionHeader .headerAnimation{
-    width: 130px;
+    width: 120px;
     height: 5px;
-    background-color: red;
+    background-color: #57606f;
     border-radius: 5px;
     position: relative;
 }
   
 .sectionHeader .headerAnimation::before{
     content: "";
-    width: 10px;
-    height: 10px;
-    background-color: green;
+    width: 11px;
+    height: 11px;
+    background-color: #ffffff;
+    border: 3px solid #040404;
+    border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 0%;
     transform: translate(-50%, -50%);
-    border-radius: 50%;
     animation-name: sectionHearer;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(0,0,1,1);
+}
+.discriptionBox{
+    width: 50%;
+}
+
+.discriptionBox  ul li{
+    list-style-type: square;
+    text-align: justify;
 }
   
 @keyframes sectionHearer {
@@ -186,6 +255,32 @@
 }
 
 
+@media (max-width : 992px) {
+    .miniImgSec {
+        display: grid;
+        grid-template-columns: repeat(2, 30%);
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+
+    .miniImgSec .ImgBody:nth-child(3),
+    .miniImgSec .ImgBody:nth-child(4) {
+        /* height: auto;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow:  4px 4px 5px 0px #0001, 
+        7px 7px 15px 0px #0002,
+        -7px -7px 15px 0px #fff9,
+        -4px -4px 5px 0px #fff9; 
+        /* inset 0px 0px 0px 0px #fff9, 
+        inset 0px 0px 0px 0px #fff9, 
+        inset 0px 0px 0px 0px #0001, 
+        inset 0px 0px 0px 0px #0001; */
+        margin-top: 25px;
+    }
+}
 
 
 
@@ -219,6 +314,10 @@
         align-items: center; */
         background-color: red !important;
     }
+
+    .navBody.add{
+        background-color: green !important;
+    }
     .head .navBody ul{
         background-color: green;
         position: absolute;
@@ -250,5 +349,45 @@
     }
 
 }
+
+
+
+
+
+@media (max-width : 576px) {
+    .miniImgSec {
+        display: grid;
+        grid-template-columns: repeat(1, 50%);
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+
+    .miniImgSec .ImgBody:not(:nth-child(1)){
+        /* height: auto;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow:  4px 4px 5px 0px #0001, 
+        7px 7px 15px 0px #0002,
+        -7px -7px 15px 0px #fff9,
+        -4px -4px 5px 0px #fff9; 
+        /* inset 0px 0px 0px 0px #fff9, 
+        inset 0px 0px 0px 0px #fff9, 
+        inset 0px 0px 0px 0px #0001, 
+        inset 0px 0px 0px 0px #0001; */
+        margin-top: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 

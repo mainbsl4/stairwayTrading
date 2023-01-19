@@ -29,7 +29,7 @@ function Home () {
                         <li>As a result, we find a number of happy customers and proved us a reliable, efficient service partner.</li>
                         <li>Discover this page you get an overview of our product and service if you have any inquiry please feel free to contact us.</li>
                     </ul>
-                    <i>CEO/STAIRWAY</i>
+                    {/* <i>CEO/STAIRWAY</i> */}
                 </div>
             </div>
         </section>
