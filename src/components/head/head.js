@@ -23,6 +23,7 @@ import Consultancy from "../service/consultancy";
 import SpareParts from "../service/spareParts";
 import Training from "../training/training";
 import Contact from "../contact/contact";
+// import Hi from "../../hi";
 
 
 export default function Head() {
@@ -43,16 +44,17 @@ export default function Head() {
           <Route path="FabricDyeingMachine" element={<FabricDyeingMachine />} />
           <Route path="HydroExtractor" element={<HydroExtractor />} />
           <Route path="WindingMachine" element={<WindingMachine />} />
-          <Route path="DispensingAutomation" element={<DispensingAutomation />} />
-          <Route path="HitRecoverySystem" element={<HitRecoverySysten />} />
-          <Route path="TextileERP" element={<TextileERP />} />
-          <Route path="IndigoMonitoringSystem" element={<IndigoManitoringSystem />} />
-          <Route path="AutomaticInsprection&Packing" element={<AutomaticInspectionPacking />} />
-          <Route path="AutomationandRetrofit" element={<AutomationRetrofit />} />
-          <Route path="Consultancy" element={<Consultancy />} />
-          <Route path="SpareParts" element={<SpareParts />} />
-          <Route path="Training" element={<Training />} />
-          <Route path="Contact" element={<Contact />} />
+          <Route path = "DispensingAutomation" element={<DispensingAutomation />} />
+          <Route path = "HitRecoverySystem" element={<HitRecoverySysten />} />
+          <Route path = "TextileERP" element={<TextileERP />} />
+          <Route path = "IndigoMonitoringSystem" element={<IndigoManitoringSystem />} />
+          <Route path = "AutomaticInsprection&Packing" element={<AutomaticInspectionPacking />} />
+          <Route path = "AutomationandRetrofit" element={<AutomationRetrofit />} />
+          <Route path = "Consultancy" element={<Consultancy />} />
+          <Route path = "SpareParts" element={<SpareParts />} />
+          <Route path = "Training" element={<Training />} />
+          <Route path = "Contact" element={<Contact />} />
+          {/* <Routes path = "Hi"  element={<Hi />}></Routes> */}
         </Route>
       </Routes>
     </BrowserRouter>

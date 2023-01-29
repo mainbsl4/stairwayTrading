@@ -1,16 +1,12 @@
 import './App.css';
-import Head from './components/head/head';
-// import Footer from './components/footer/footer';
-// import FooterRouter from './components/footer/footerRouter';
-// import Output from './components/footer/output';
-import ABC from './components/footer/x';
+// import Head from './components/head/head';
+import Router from './router/router';
+
 function App() {
   return (
     <>
-    <Head/>
-    {/* <Output/> */}
-    <ABC/>
-    {/* <FooterRouter/> */}
+    {/* <Head/> */}
+    <Router/>
     </>
   );
 }
