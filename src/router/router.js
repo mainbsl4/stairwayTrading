@@ -10,7 +10,8 @@ import MissinIntegrity from "../components/company/missinIntegrity";
 import SartegyTeam from "../components/company/sartegyTeam";
 import BusinessPartners from "../components/businessPartners/businessPartners"
 import LabEquipment from "../components/product/labEquipment";
-import YarnDyeingMachine from "../components/product/fabricDyeingMachine";
+// import YarnDyeingMachine from "../components/product/fabricDyeingMachine";
+import YarnDyeingMachine from "../components/product/yarnDyeingMachine";
 import FabricDyeingMachine from "../components/product/fabricDyeingMachine";
 import HydroExtractor from "../components/product/hydroExtractor";
 import WindingMachine from "../components/product/windingMachine";
@@ -34,12 +35,12 @@ export default function Router() {
       <Routes>
         <Route path="/" element={<Output />}>
           <Route index element={<Home />} />
-          <Route path="Prbilications" element={<Prbilications />} />
-          <Route path="Events" element={<Events />} />
-          <Route path="AboutUS" element={<About />} />
-          <Route path="Values&Vision" element={<VisualVisions />} />
-          <Route path="Mission&Integrity" element={<MissinIntegrity />} />
-          <Route path="Strategy&Team" element={<SartegyTeam />} />
+          <Route path = "Prbilications" element={<Prbilications />} />
+          <Route path = "Events" element={<Events />} />
+          <Route path = "AboutUS" element={<About />} />
+          <Route path = "Values&Vision" element={<VisualVisions />} />
+          <Route path = "Mission&Integrity" element={<MissinIntegrity />} />
+          <Route path = "Strategy&Team" element={<SartegyTeam />} />
           <Route path = "BusinessPartners" element={<BusinessPartners />} />
           <Route path = "LabEsuipment" element={<LabEquipment />} />
           <Route path = "YarnDyeingMachine" element={<YarnDyeingMachine />} />
@@ -56,7 +57,7 @@ export default function Router() {
           <Route path = "SpareParts" element={<SpareParts />} />
           <Route path = "Training" element={<Training />} />
           <Route path = "Contact" element={<Contact />} />
-          <Route path = "Hi"  element={<Hi />}></Route>
+          <Route path = "/Hi"  element={<Hi />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

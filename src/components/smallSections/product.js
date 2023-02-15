@@ -12,10 +12,10 @@ function Product () {
             </div>
             <div className="descriptionBody">
                 <div className="productModle">
-                    <p>Modle name of products</p>
+                    <p>aaaaaaaaaaa</p>
                 </div>
                 <div className="productDescription">
-                    <p>It will be product deacription. And other things of that</p>
+                    <p>bbbbb</p>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
+// import BannerOrMiniImage from "../smallSections/bannerOrMiniImg";
+
 function FabricDyeingMachine () {
 
     return(
-        <>
-        <h3>FabricDyeingMachine</h3>
-        </>
+        <div>Fabric Dyeing Machine</div>
     )
 }
 

@@ -16,7 +16,7 @@ function Home () {
 
 
 
-            <div className="welcomeSection">
+            <div className="startSection">
                 <div className="sectionHeader">
                     <h3>Welcome</h3>
                     <span className="headerAnimation"></span>

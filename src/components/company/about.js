@@ -8,7 +8,7 @@ function About () {
             <BannerOrMiniImage banner={backgroundImage}/>
 
 
-            <div className="aboutUsSection">
+            <div className="startSection">
                 <div className="sectionHeader">
                     <h3>About Us</h3>
                     <span className="headerAnimation"></span>

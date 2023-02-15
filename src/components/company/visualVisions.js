@@ -14,10 +14,10 @@ function VisualVisions () {
 
 
 
-        <div className="VisualVisionsSection">
+        <div className="startSection">
             <div className="sectionHeader">
                 <h3>VALUES & VISIONS</h3>
-                <span className="headerAnimation"></span>
+                {/* <span className="headerAnimation"></span> */}
             </div>
 
             <div className="discriptionBox">
