@@ -957,75 +957,6 @@ input[type=text], select {
 @media (max-width : 992px) {
 
 
-    .head {
-        width: 100%;
-        height: 70px;
-        /* background-color: red; */
-        display: flex;
-        /* grid-template-columns: 25% 75%; */
-        justify-content: space-between;
-        align-items: center;
-        /* padding: 0px 10px; */
-    }
-    /* .head .basic-navbar-nav > span{
-        background-color: red !important;
-    } */
-    .head .basic-navbar-nav:hover{
-        border: none !important;
-        background: none !important;
-        outline: none !important;
-        box-shadow: none !important;
-    }
-
-    
-    .navBody{
-        width: 200px !important;
-        /* height: 100vh !important; */
-        height: 280px !important;
-        position: absolute;
-        top: 70px;
-        right: 0px;
-        /* display: flex;
-        justify-content: right;
-        align-items: center; */
-        background-color: #e2eafc;
-        /* background-color: red; */
-    }
-
-    /* .navBody.add{
-        background-color: green !important;
-    } */
-    .head .navBody ul{
-        /* background-color: green; */
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 200px;
-        height: auto;
-        display: flex !important;
-        justify-content: left !important;
-        align-items: center !important;
-        flex-direction: column;
-        /* overflow: hidden; */
-        /* background-color: white; */
-    }
-
-
-    .head .navBody ul .navLink{
-        /* margin-top: 0px; */
-        padding: 7px 5px;
-        width: 200px;
-        height: 100%;
-        margin-left: -32px;
-        /* border: 1px solid red; */
-        /* cursor: pointer; */
-        /* position: absolute; */
-        display: flex;
-        justify-content: left;
-        align-items: center;
-    }
-
-
     .miniImgSec {
         display: grid;
         grid-template-columns: repeat(2, 33%);
@@ -1159,7 +1090,9 @@ input[type=text], select {
 
 
 @media (max-width : 576px) {
-    .miniImgSec {
+
+
+.miniImgSec {
         display: grid;
         grid-template-columns: repeat(1, 60%);
         justify-content: center;
@@ -1239,6 +1172,8 @@ input[type=text], select {
 
 
 @media (max-width:400px) {
+
+    
     .miniImgSec {
         display: grid;
         grid-template-columns: repeat(1, 70%);
