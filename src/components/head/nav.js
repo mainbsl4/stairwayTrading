@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {Link} from "react-router-dom";
 import logo from "../../assets/logo/stairway-logo.png";
 // import "../../App.css"
@@ -6,10 +7,22 @@ import logo from "../../assets/logo/stairway-logo.png";
 
 function Nav (){
 
+    
 // head.addEventListener("scroll",()=>{
 
 // })
 
+// Class name
+const navBody = "navBody";
+// Class name
+
+const [hideNav, setVisibleNav] = useState("hideNav");
+
+    let NavHV = hideNav ? "hideNav" : "visibleNav"
+
+    const navBtn = () => {
+        setVisibleNav(hideNav => !hideNav)
+    }
     return(
         // <>
          <div className = "head">
@@ -17,7 +30,7 @@ function Nav (){
                <Link to="/"><img src={logo} alt = "logo"/></Link>
                </div>
 
-               <div className="navBody">
+               <div className={`${navBody} ${NavHV}`}>
                <ul>
                     <li>
                         <span className="navLink">News</span>
@@ -67,7 +80,7 @@ function Nav (){
                 </ul>
                 
                </div>
-               <div className="manubar">
+               <div className="manubar" onClick={navBtn}>
                         <span>A</span>
                         <span>B</span>
                         <span>C</span>
