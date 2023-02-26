@@ -5,6 +5,7 @@
 }
 body{
     background-color: #e2eafc;
+    scroll-behavior: smooth;
 }
 .head {
     width: 100%;
@@ -149,7 +150,7 @@ body{
     background-color: #ced6e0;
 }
 
-.manubar{
+.manuBtn{
     display: none;
 }
 
@@ -925,6 +926,56 @@ input[type=text], select {
 
 }
 
+/* End footer  */
+
+
+/* To Top Button  */
+.hideToTopBtn{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    text-decoration: none;
+    color: #040404;
+    font-size: 24px;
+    border-radius: 5px;
+    display: none;
+    /* font-weight: bolder; */
+}
+
+.vidibleToTopBtn{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 15px;
+    bottom: 40px;
+    text-decoration: none;
+    color: #040404;
+    font-size: 24px;
+    border: 2px solid #040404;
+    border-radius: 5px;
+    /* display: block; */
+    /* font-weight: bolder; */
+}
+/* To Top Button  */
+
+
+/* Product image zooming  */
+
+
+/* Product image zooming  */
+
+
+
 
 @media (max-width: 1200px) {
     .miniImgSec {
@@ -1035,9 +1086,72 @@ input[type=text], select {
         border-top: 1px solid #f1f2f6;
     }
 
-    .manubar{
+
+    /* manubar start  */
+    .manuBtn{
         display: block;
+        width: 20px;
+        height: 16px;
+        /* background-color: red; */
+        position: relative;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; */
     }
+    .manuBtn .firstSpan,
+    .manuBtn .secondSpan,
+    .manuBtn .thirdSpan{
+        width: 20px;
+        height: 3px;
+        position: absolute;
+        background-color: #040404;
+    }
+   .firstSpan{
+        top: 0px;
+        left: 0px;
+    }
+
+    .firstSpanAnimation{
+        width: 20px;
+        height: 3px;
+        position: absolute;
+        background-color: #040404;
+        top: 50%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        transform: rotate(45deg);
+        transition: .3s ease-in-out;
+    }
+
+    .manuBtn .secondSpan{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .manuBtn .secondSpanAnimation{
+        display: none;
+    }
+
+    .manuBtn .thirdSpan{
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .manuBtn .thirdSpanAnimation{
+        width: 20px;
+        height: 3px;
+        position: absolute;
+        background-color: #040404;
+        top: 50%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+        transform: rotate(-45deg);
+        transition: .3s ease-in-out;
+    }
+
+    /* manubar end  */
 
     .miniImgSec {
         display: grid;

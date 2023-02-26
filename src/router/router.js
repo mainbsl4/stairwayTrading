@@ -26,6 +26,7 @@ import SpareParts from "../components/service/spareParts";
 import Training from "../components/training/training";
 import Contact from "../components/contact/contact";
 import Hi from "../hi";
+import ModulabSBM from "../components/product/productModleComponent/modulabSBM";
 // import Hi from "../../hi";
 
 
@@ -58,6 +59,7 @@ export default function Router() {
           <Route path = "Training" element={<Training />} />
           <Route path = "Contact" element={<Contact />} />
           <Route path = "/Hi"  element={<Hi />}></Route>
+          <Route path = "/LabEsuipment/modulabSBM" element={<ModulabSBM />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -12,7 +12,7 @@ function Output () {
         <Outlet/>
         <Footer/>
         </>
-    )
-}
+    );
+};
 
 export default Output;

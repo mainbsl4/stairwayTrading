@@ -40,7 +40,7 @@ function LabEquipment () {
                         <p>STAIRWAY Trading provides a complete range of textile and apparel technology solutions from Dyeing to finishing, packing, inspection and all related processes by the world’s leading – premium branded manufacturers from Europe, China, Korea, etc.</p>
                     </div>
                     <div className = "CardBody">
-                        <Link className = "productLink" to='/Hi'><PartnersCard image={SALCE} head = {"Modulab SBM"} body ={"Automatic Lab Dispensing & Dyeing machine."} address = {"SALCE - Italy"} /></Link>
+                        <Link className = "productLink" to='/LabEsuipment/modulabSBM'><PartnersCard image={SALCE} head = {"Modulab SBM"} body ={"Automatic Lab Dispensing & Dyeing machine."} address = {"SALCE - Italy"} /></Link>
                         <Link className = "productLink" to='/Hi'><PartnersCard image={IRLABDyeingLanding} head = {"REDKROME II"} body ={"IR Lab dyeing machine"} address = {"UGOLINI – Italy"} /></Link>
                         <Link className = "productLink" to='/Hi'><PartnersCard image={minisimplexDescr} head = {"MINISIMPLEX"} body ={"Sample Dyeing machine"} address = {"UGOLINI – Italy"} /></Link>
                         <Link className = "productLink" to='/Hi'><PartnersCard image={LABHANKdescrip} head = {"Lab HANK"} body ={"Laboratory Hank Dyeing Machine"} address = {"UGOLINI – Italy"} /></Link>
@@ -52,7 +52,6 @@ function LabEquipment () {
                         <Link className = "productLink" to='/Hi'><PartnersCard image={colourDescrip} head = {"Colour Light"} body ={"Color matching box"} address = {"UGOLINI – Italy"} /></Link>
                         <Link className = "productLink" to='/Hi'><PartnersCard image={PHControlSystem} head = {"pH CUBE"} body ={"PH control system"} address = {"BECATRON AG – Switzerland"} /></Link>
                     </div>  
-                    {/* <i>CEO/STAIRWAY</i> */}
                 </div>
 
             </div>

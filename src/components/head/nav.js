@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronUp } from "@fortawesome/fontawesome-free-solid";
 import { useState } from "react";
 import {Link} from "react-router-dom";
 import logo from "../../assets/logo/stairway-logo.png";
@@ -7,22 +9,47 @@ import logo from "../../assets/logo/stairway-logo.png";
 
 function Nav (){
 
-    
-// head.addEventListener("scroll",()=>{
-
-// })
 
 // Class name
 const navBody = "navBody";
+const blankLink = "#";
+// const manuBtn = document.getElementsByClassName(".manuBtn")
 // Class name
+    const [hideNav, setVisibleNav] = useState(true);
+    const [firstSpan, setFirstSpan] = useState(true);
+    const [secondSpan, setSecondSpan] = useState(true);
+    const [thirdSpan, setThirdSpan] = useState(true);
+    const [toTopBtn, setToTopBtn] = useState(true);
 
-const [hideNav, setVisibleNav] = useState("hideNav");
-
-    let NavHV = hideNav ? "hideNav" : "visibleNav"
-
+    // const firstSpanAnimation = firstSpan ? "firstSpan" : "firstSpanAnimation";
+    
     const navBtn = () => {
-        setVisibleNav(hideNav => !hideNav)
-    }
+        setVisibleNav(hideNav => !hideNav);
+        setFirstSpan(firstSpan => !firstSpan);
+        setSecondSpan(secondSpan => !secondSpan);
+        setThirdSpan(thirdSpan => !thirdSpan);
+    };
+
+    // setToTopBtn(toTopBtn => !toTopBtn);
+
+
+    window.addEventListener("scroll", () => {
+        if(window.pageYOffset >= 5) {
+            setVisibleNav(true);
+            setFirstSpan(true);
+            setSecondSpan(true);
+            setThirdSpan(true);
+        };
+
+        if(window.pageYOffset > 100) {
+            setToTopBtn(false);
+        }else{
+            setToTopBtn(true); 
+        }
+        // if(pageY < 100){
+        //     console.log(pageY);
+        // };
+    });
     return(
         // <>
          <div className = "head">
@@ -30,7 +57,7 @@ const [hideNav, setVisibleNav] = useState("hideNav");
                <Link to="/"><img src={logo} alt = "logo"/></Link>
                </div>
 
-               <div className={`${navBody} ${NavHV}`}>
+               <div className={`${navBody} ${hideNav ? "hideNav" : "visibleNav"}`}>
                <ul>
                     <li>
                         <span className="navLink">News</span>
@@ -80,16 +107,17 @@ const [hideNav, setVisibleNav] = useState("hideNav");
                 </ul>
                 
                </div>
-               <div className="manubar" onClick={navBtn}>
-                        <span>A</span>
-                        <span>B</span>
-                        <span>C</span>
+               <div className="manuBtn" onClick={navBtn}>
+                    <span className={`${firstSpan ? "firstSpan" : "firstSpanAnimation"}`}></span>
+                    <span className={`${secondSpan ? "secondSpan" : "secondSpanAnimation"}`}></span>
+                    <span className={`${thirdSpan ? "thirdSpan" : "thirdSpanAnimation"}`}></span>
                 </div>
+                <a className={`${toTopBtn ? "hideToTopBtn" : "vidibleToTopBtn"}`} href = {blankLink}><FontAwesomeIcon icon={faChevronUp}/></a>
                 {/* <button >click</button> */}
             </div>
         // </>
-    )
-}
+    );
+};
 
 export default Nav;
 
