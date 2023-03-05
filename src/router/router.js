@@ -26,7 +26,7 @@ import SpareParts from "../components/service/spareParts";
 import Training from "../components/training/training";
 import Contact from "../components/contact/contact";
 import Hi from "../hi";
-import ModulabSBM from "../components/product/productModleComponent/modulabSBM";
+import ModulabSBM from "../components/product/productDescriptionsComponent/modulabSBM";
 // import Hi from "../../hi";
 
 

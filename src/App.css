@@ -797,6 +797,80 @@ input[type=text], select {
 /* Contact  */
 
 
+
+/* Product description Container  */
+
+.productDescriptionContainer{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.productDescriptionContainer .linkBody{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.productDescriptionContainer .linkBody .link{
+    color: #040404;
+    text-decoration: none;
+    /* background-color: #00acee; */
+    /* border: 1px solid red; */
+    border: .5px solid #040404;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    margin-top: 4px;
+}
+
+
+.productDescriptionContainer .linkBody .link:hover{
+    background-color: #ced6e0;
+    transition: .4s ease-in-out;
+}
+
+
+.productDescriptionContainer .detailsContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 10px 0px 20px;
+    /* flex-direction: column; */
+}
+
+.productDescriptionContainer .detailsContainer .productModleAndDetails{
+    width: 100%;
+}
+
+.productDescriptionContainer .detailsContainer .productImage{
+
+    width: 50%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.productDescriptionContainer .detailsContainer .productImage img{
+    width: 100%;
+    height: auto;
+}
+
+
+.productDescriptionContainer .detailsContainer .productSpecification{
+    width: 50%;
+    padding: 0px 90px;
+    text-align: justify;
+}
+
+
+.productDescriptionContainer .detailsContainer .productSpecification p{
+    border-bottom: 1px solid #ced6e0;
+}
+/* Product description Container  */
+
+
+
 /* footer */
 
 .footer{
@@ -1192,7 +1266,7 @@ input[type=text], select {
 
 
 
-    /* Card bidy -------- */
+    /* Card body -------- */
 
     .CardBody {
         /* display: flex; */
@@ -1201,7 +1275,30 @@ input[type=text], select {
         justify-content: space-around;
     }
 
-    /* Card bidy -------- */
+    /* Card body -------- */
+
+
+/* Product description Container  */
+
+.productDescriptionContainer{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.productDescriptionContainer .linkBody{
+    /* display: flex;
+    flex-direction: column; */
+    display: none;
+}
+
+
+.productDescriptionContainer .detailsContainer .productSpecification{
+    /* width: 50%; */
+    padding: 0px 50px;
+    /* text-align: justify; */
+}
+/* Product description Container  */
+
 }
 
 
@@ -1252,6 +1349,17 @@ input[type=text], select {
     }
     
     /* Card bidy -------- */
+
+
+
+/* Product description Container  */
+.productDescriptionContainer .detailsContainer .productSpecification{
+    /* width: 50%; */
+    padding: 0px 30px;
+    /* text-align: justify; */
+}
+/* Product description Container  */
+
 
 
     /* .footer .footerTop{
@@ -1348,6 +1456,34 @@ input[type=text], select {
     }
     
     /* Card bidy -------- */
+
+
+/* Product description Container  */
+
+
+.productDescriptionContainer .detailsContainer{
+    padding: 0px 10px;
+
+}
+
+
+.productDescriptionContainer .detailsContainer .productImage{
+
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.productDescriptionContainer .detailsContainer .productSpecification{
+    width: 100%;
+    padding: 0px 10px;
+    margin-top: 10px;
+    /* text-align: justify; */
+}
+
+
+/* Product description Container  */
+
 
     .footer .footerBottom{
         /* width: 100%; */
