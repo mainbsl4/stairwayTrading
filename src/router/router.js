@@ -27,6 +27,25 @@ import Training from "../components/training/training";
 import Contact from "../components/contact/contact";
 import Hi from "../hi";
 import ModulabSBM from "../components/product/productDescriptionsComponent/modulabSBM";
+import REDKROMEII from "../components/product/productDescriptionsComponent/REDKROMEII";
+import Carriers from "../components/product/productDescriptionsComponent/Carriers";
+import CESCR from "../components/product/productDescriptionsComponent/CES-CR";
+import ColourLight from "../components/product/productDescriptionsComponent/ColourLight";
+import GSESeries from "../components/product/productDescriptionsComponent/GSE-Series";
+import GSHSeries from "../components/product/productDescriptionsComponent/GSH–Series";
+import HANKSeries from "../components/product/productDescriptionsComponent/HANK–Series";
+import HardWindingMachine from "../components/product/productDescriptionsComponent/HardWindingMachine";
+import LabHANK from "../components/product/productDescriptionsComponent/LabHANK";
+import MiniDryer from "../components/product/productDescriptionsComponent/MiniDryer";
+import MINIJET from "../components/product/productDescriptionsComponent/MINIJET";
+import MINISIMPLEX from "../components/product/productDescriptionsComponent/MINISIMPLEX";
+import PHCUBE from "../components/product/productDescriptionsComponent/pHCUBE";
+import SmallLotsDryer from "../components/product/productDescriptionsComponent/SmallLotsDryer";
+import SoftWindingMachine from "../components/product/productDescriptionsComponent/SoftWindingMachine";
+import SP110Series from "../components/product/productDescriptionsComponent/SP110–Series";
+import SPSimplexSeries from "../components/product/productDescriptionsComponent/SPSimplex–Series";
+import TEXAIR from "../components/product/productDescriptionsComponent/TEXAIR";
+import ZP400 from "../components/product/productDescriptionsComponent/ZP400";
 // import Hi from "../../hi";
 
 
@@ -60,6 +79,29 @@ export default function Router() {
           <Route path = "Contact" element={<Contact />} />
           <Route path = "/Hi"  element={<Hi />}></Route>
           <Route path = "/LabEsuipment/modulabSBM" element={<ModulabSBM />}></Route>
+          <Route path = "/LabEsuipment/redkromeii"  element={<REDKROMEII />}></Route>
+          <Route path = "/LabEsuipment/carriers"  element={<Carriers />}></Route>
+          <Route path = "/LabEsuipment/cescr"  element={<CESCR />}></Route>
+          <Route path = "/LabEsuipment/colourLight"  element={<ColourLight />}></Route>
+          <Route path = "/LabEsuipment/gseSeries"  element={<GSESeries />}></Route>
+          <Route path = "/LabEsuipment/gshSeries"  element={<GSHSeries />}></Route>
+          <Route path = "/LabEsuipment/hankSeries"  element={<HANKSeries />}></Route>
+          <Route path = "/LabEsuipment/hardWindingMachine"  element={<HardWindingMachine />}></Route>
+          <Route path = "/LabEsuipment/labHank"  element={<LabHANK />}></Route>
+          <Route path = "/LabEsuipment/miniDryer"  element={<MiniDryer />}></Route>
+          <Route path = "/LabEsuipment/miniJET"  element={<MINIJET />}></Route>
+          <Route path = "/LabEsuipment/miniSimplex"  element={<MINISIMPLEX />}></Route>
+          <Route path = "/LabEsuipment/phCube"  element={<PHCUBE />}></Route>
+          <Route path = "/LabEsuipment/smallLotsDryer"  element={<SmallLotsDryer />}></Route>
+          <Route path = "/LabEsuipment/softWindingMachine"  element={<SoftWindingMachine />}></Route>
+          <Route path = "/LabEsuipment/sp110series"  element={<SP110Series />}></Route>
+          <Route path = "/LabEsuipment/spSimpleSeries"  element={<SPSimplexSeries />}></Route>
+          <Route path = "/LabEsuipment/texair"  element={<TEXAIR />}></Route>
+          <Route path = "/LabEsuipment/zp400"  element={<ZP400 />}></Route>
+          {/* <Route path = "/Hi"  element={<Hi />}></Route> */}
+          {/* <Route path = "/Hi"  element={<Hi />}></Route> */}
+          {/* <Route path = "/Hi"  element={<Hi />}></Route> */}
+          {/* <Route path = "/Hi"  element={<Hi />}></Route> */}
         </Route>
       </Routes>
     </BrowserRouter>
