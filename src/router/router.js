@@ -84,6 +84,7 @@ export default function Router() {
           <Route path = "Training" element={<Training />} />
           <Route path = "Contact" element={<Contact />} />
           <Route path = "/Hi"  element={<Hi />}></Route>
+
           <Route path = "/LabEsuipment/modulabSBM" element={<ModulabSBM />}></Route>
           <Route path = "/LabEsuipment/redkromeii"  element={<REDKROMEII />}></Route>
           <Route path = "/LabEsuipment/cescr"  element={<CESCR />}></Route>
@@ -101,16 +102,14 @@ export default function Router() {
           <Route path = "/HydroExtractor/cle-ces-cr"  element={<CEL_CES_CR />}></Route>
           {/* <Route path = "/Hi"  element={<SoftWindingMachine />}></Route>
           <Route path = "/Hi"  element={<HardWindingMachine />}></Route> */}
+
           <Route path = "/AutomationandRetrofit/MDatexSmartTouchM"  element={<MDatexSmartTouchM />}></Route>
           <Route path = "/AutomationandRetrofit/DatexSmartTouchS"  element={<DatexSmartTouchS />}></Route>
           <Route path = "/AutomationandRetrofit/DATEXPLCMASTER841616"  element={<DATEXPLCMASTER841616 />}></Route>
           <Route path = "/AutomationandRetrofit/PLCmodule"  element={<PLCmodule />}></Route>
 
-
           <Route path = "/WindingMachine/hardWindingMachine"  element={<HardWindingMachine />}></Route>
           <Route path = "/WindingMachine/softWindingMachine"  element={<SoftWindingMachine />}></Route>
-
-
 
           <Route path = "/YarnDyeingMachine/carriers"  element={<Carriers />}></Route>
           <Route path = "/YarnDyeingMachine/gseSeries"  element={<GSESeries />}></Route>
