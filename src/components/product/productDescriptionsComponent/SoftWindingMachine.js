@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/LAB/SalceDescription.jpg"
+import productImage from "../../../assets/products/Winding/SoftWindingDescription.jpg"
 
 
 //import for banner image 
@@ -16,19 +16,14 @@ function SoftWindingMachine (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
+                    <Link className="link" to="/WindingMachine/softWindingMachine">Soft Winding Machine</Link>
+                    <Link className="link" to="/WindingMachine/hardWindingMachine">Hard Winding Machine</Link>
                 </div>
 
                 <div className="detailsContainer">
                     <div className="productModleAndDetails">
-                        <h4>MODULAB SBM</h4>
-                        <p>SALCE's Modulab SBM, handle complete automatically both the liquids and the powders and volumetric dispenser with integrated dyeing units.</p>
+                        <h4>Soft Winding Machine</h4>
+                        <p>Soft package winder, Suitable for all kind of yarn like: Textured or flat filament, elastic, silk, staple, fine technical yarns.</p>
                     </div>
 
                     <div className="productImage">
@@ -37,13 +32,10 @@ function SoftWindingMachine (){
 
                     <div className="productSpecification">
                         <h4>Specification</h4>
-                        <p>Real-time check of the accuracy of each dosing; Scale accuracy : +/- 0.001gr</p>
+                        <p>Speed: up to 1200m/min</p>
                         {/* <span></span> */}
-                        <p>Preparation of solutions, expired and/or finished stock solutions & Automatic washing of the bottles.</p>
+                        <p>Package shape freely programmable.</p>
                         {/* <span></span> */}
-                        <p>Automatic liquor ratio.</p>
-                        {/* <span></span> */}
-                        <p>Interface with all the most common Colour Matching Systems.</p>
                     </div>
                 </div>
             </div>

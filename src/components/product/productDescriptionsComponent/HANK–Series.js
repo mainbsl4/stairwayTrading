@@ -16,13 +16,12 @@ function HANKSeries (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
+                    <Link className="link" to="/YarnDyeingMachine/gseSeries">GSE – Series</Link>
+                    <Link className="link" to="/YarnDyeingMachine/gshSeries">GSH – Series</Link>
+                    <Link className="link" to="/YarnDyeingMachine/sp110series">SP110 – Series</Link>
+                    <Link className="link" to="/YarnDyeingMachine/spSimpleSeries">SP Simplex – Series</Link>
+                    <Link className="link" to="/YarnDyeingMachine/hankSeries">HANK – Series</Link>
+                    <Link className="link" to="/YarnDyeingMachine/carriers">Carriers</Link>
                 </div>
 
                 <div className="detailsContainer">

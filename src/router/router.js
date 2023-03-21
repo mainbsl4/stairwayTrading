@@ -46,6 +46,12 @@ import SP110Series from "../components/product/productDescriptionsComponent/SP11
 import SPSimplexSeries from "../components/product/productDescriptionsComponent/SPSimplex–Series";
 import TEXAIR from "../components/product/productDescriptionsComponent/TEXAIR";
 import ZP400 from "../components/product/productDescriptionsComponent/ZP400";
+import ZP400Hydro from "../components/product/productDescriptionsComponent/ZP400Hydro";
+import CEL_CES_CR from "../components/product/productDescriptionsComponent/CEL_CES-CR";
+import DATEXPLCMASTER841616 from "../components/service/servicesContainer/DATEX-PLC-MASTER-841616";
+import DatexSmartTouchS from "../components/service/servicesContainer/Datex-smart-touch-S";
+import MDatexSmartTouchM from "../components/service/servicesContainer/MDatex-smart-touch-M";
+import PLCmodule from "../components/service/servicesContainer/PLC-module";
 // import Hi from "../../hi";
 
 
@@ -80,28 +86,39 @@ export default function Router() {
           <Route path = "/Hi"  element={<Hi />}></Route>
           <Route path = "/LabEsuipment/modulabSBM" element={<ModulabSBM />}></Route>
           <Route path = "/LabEsuipment/redkromeii"  element={<REDKROMEII />}></Route>
-          <Route path = "/LabEsuipment/carriers"  element={<Carriers />}></Route>
           <Route path = "/LabEsuipment/cescr"  element={<CESCR />}></Route>
           <Route path = "/LabEsuipment/colourLight"  element={<ColourLight />}></Route>
-          <Route path = "/LabEsuipment/gseSeries"  element={<GSESeries />}></Route>
-          <Route path = "/LabEsuipment/gshSeries"  element={<GSHSeries />}></Route>
-          <Route path = "/LabEsuipment/hankSeries"  element={<HANKSeries />}></Route>
-          <Route path = "/LabEsuipment/hardWindingMachine"  element={<HardWindingMachine />}></Route>
           <Route path = "/LabEsuipment/labHank"  element={<LabHANK />}></Route>
           <Route path = "/LabEsuipment/miniDryer"  element={<MiniDryer />}></Route>
           <Route path = "/LabEsuipment/miniJET"  element={<MINIJET />}></Route>
           <Route path = "/LabEsuipment/miniSimplex"  element={<MINISIMPLEX />}></Route>
           <Route path = "/LabEsuipment/phCube"  element={<PHCUBE />}></Route>
           <Route path = "/LabEsuipment/smallLotsDryer"  element={<SmallLotsDryer />}></Route>
-          <Route path = "/LabEsuipment/softWindingMachine"  element={<SoftWindingMachine />}></Route>
-          <Route path = "/LabEsuipment/sp110series"  element={<SP110Series />}></Route>
-          <Route path = "/LabEsuipment/spSimpleSeries"  element={<SPSimplexSeries />}></Route>
           <Route path = "/LabEsuipment/texair"  element={<TEXAIR />}></Route>
           <Route path = "/LabEsuipment/zp400"  element={<ZP400 />}></Route>
-          {/* <Route path = "/Hi"  element={<Hi />}></Route> */}
-          {/* <Route path = "/Hi"  element={<Hi />}></Route> */}
-          {/* <Route path = "/Hi"  element={<Hi />}></Route> */}
-          {/* <Route path = "/Hi"  element={<Hi />}></Route> */}
+
+          <Route path = "/HydroExtractor/ZP400"  element={<ZP400Hydro />}></Route>
+          <Route path = "/HydroExtractor/cle-ces-cr"  element={<CEL_CES_CR />}></Route>
+          {/* <Route path = "/Hi"  element={<SoftWindingMachine />}></Route>
+          <Route path = "/Hi"  element={<HardWindingMachine />}></Route> */}
+          <Route path = "/AutomationandRetrofit/MDatexSmartTouchM"  element={<MDatexSmartTouchM />}></Route>
+          <Route path = "/AutomationandRetrofit/DatexSmartTouchS"  element={<DatexSmartTouchS />}></Route>
+          <Route path = "/AutomationandRetrofit/DATEXPLCMASTER841616"  element={<DATEXPLCMASTER841616 />}></Route>
+          <Route path = "/AutomationandRetrofit/PLCmodule"  element={<PLCmodule />}></Route>
+
+
+          <Route path = "/WindingMachine/hardWindingMachine"  element={<HardWindingMachine />}></Route>
+          <Route path = "/WindingMachine/softWindingMachine"  element={<SoftWindingMachine />}></Route>
+
+
+
+          <Route path = "/YarnDyeingMachine/carriers"  element={<Carriers />}></Route>
+          <Route path = "/YarnDyeingMachine/gseSeries"  element={<GSESeries />}></Route>
+          <Route path = "/YarnDyeingMachine/gshSeries"  element={<GSHSeries />}></Route>
+          <Route path = "/YarnDyeingMachine/hankSeries"  element={<HANKSeries />}></Route>
+          <Route path = "/YarnDyeingMachine/sp110series"  element={<SP110Series />}></Route>
+          <Route path = "/YarnDyeingMachine/spSimpleSeries"  element={<SPSimplexSeries />}></Route>
+
         </Route>
       </Routes>
     </BrowserRouter>

@@ -33,12 +33,12 @@ function YarnDyeingMachine () {
                 </div>
 
                 <div className = "CardBody">
-                    <Link className = "productLink" to='/LabEsuipment/gseSeries'><PartnersCard image={GSESeriesDescription} head = {"GSE – Series"} body ={"HTHP Bulk Yarn Dyeing Machine."} address = {"UGOLINI – Italy"} /></Link>
-                    <Link className = "productLink" to='/LabEsuipment/gshSeries'><PartnersCard image={GSHSeriesDescription} head = {"GSH – Series"} body ={"Horizontal Yarn Dyeing Machine"} address = {"UGOLINI – Italy"} /></Link>
-                    <Link className = "productLink" to='/LabEsuipment/sp110series'><PartnersCard image={sp110Descrip} head = {"SP110 – Series"} body ={"Small lots dyeing Machine."} address = {"UGOLINI – Italy"} /></Link>
-                    <Link className = "productLink" to='/LabEsuipment/spSimpleSeries'><PartnersCard image={SPSimplexLanding} head = {"SP Simplex – Series"} body ={"Sample Dyeing Machine"} address = {"UGOLINI – Italy"} /></Link>
-                    <Link className = "productLink" to='/LabEsuipment/hankSeries'><PartnersCard image={HANKSLanding} head = {"HANK – Series"} body ={"HANK Dyeing Machine"} address = {"UGOLINI – Italy"} /></Link>
-                    <Link className = "productLink" to='/LabEsuipment/carriers'><PartnersCard image={CarrierLanding} head = {"Carriers"} body ={""} address = {"UGOLINI – Italy"} /></Link>
+                    <Link className = "productLink" to='/YarnDyeingMachine/gseSeries'><PartnersCard image={GSESeriesDescription} head = {"GSE – Series"} body ={"HTHP Bulk Yarn Dyeing Machine."} address = {"UGOLINI – Italy"} /></Link>
+                    <Link className = "productLink" to='/YarnDyeingMachine/gshSeries'><PartnersCard image={GSHSeriesDescription} head = {"GSH – Series"} body ={"Horizontal Yarn Dyeing Machine"} address = {"UGOLINI – Italy"} /></Link>
+                    <Link className = "productLink" to='/YarnDyeingMachine/sp110series'><PartnersCard image={sp110Descrip} head = {"SP110 – Series"} body ={"Small lots dyeing Machine."} address = {"UGOLINI – Italy"} /></Link>
+                    <Link className = "productLink" to='/YarnDyeingMachine/spSimpleSeries'><PartnersCard image={SPSimplexLanding} head = {"SP Simplex – Series"} body ={"Sample Dyeing Machine"} address = {"UGOLINI – Italy"} /></Link>
+                    <Link className = "productLink" to='/YarnDyeingMachine/hankSeries'><PartnersCard image={HANKSLanding} head = {"HANK – Series"} body ={"HANK Dyeing Machine"} address = {"UGOLINI – Italy"} /></Link>
+                    <Link className = "productLink" to='/YarnDyeingMachine/carriers'><PartnersCard image={CarrierLanding} head = {"Carriers"} body ={""} address = {"UGOLINI – Italy"} /></Link>
                 </div> 
             </div>
         </section>

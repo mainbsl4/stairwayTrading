@@ -27,8 +27,8 @@ function HydroExtractor () {
                     {/* <span className = "headerAnimation"></span> */}
                 </div>
                 <div className = "CardBody">
-                    <Link className = "productLink" to='/Hi'><PartnersCard image={HydroLanding} head = {"CEL/CES-CR"} body ={"Removable Basket Hydro-Extractors"} address = {"POZZI - Italy"} /></Link>
-                    <Link className = "productLink" to='/'><PartnersCard image={labHydroLanding} head = {"ZP400"} body ={"Hydro-extractor for lab sample."} address = {"UGOLINI – Italy"} /></Link>
+                    <Link className = "productLink" to='/HydroExtractor/ZP400'><PartnersCard image={labHydroLanding} head = {"ZP400"} body ={"Hydro-extractor for lab sample."} address = {"UGOLINI – Italy"} /></Link>
+                    <Link className = "productLink" to='/HydroExtractor/cle-ces-cr'><PartnersCard image={HydroLanding} head = {"CEL/CES-CR"} body ={"Removable Basket Hydro-Extractors"} address = {"POZZI - Italy"} /></Link>
                 </div>                
             </div>
         </section>

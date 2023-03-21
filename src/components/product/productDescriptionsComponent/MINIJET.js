@@ -16,13 +16,17 @@ function MINIJET (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
+                    <Link className="link" to="/LabEsuipment/modulabSBM">Modulab SBM</Link>
+                    <Link className="link" to="/LabEsuipment/redkromeii">REDKROME II</Link>
+                    <Link className="link" to="/LabEsuipment/miniSimplex">MINISIMPLEX</Link>
+                    <Link className="link" to="/LabEsuipment/labHank">Lab HANK</Link>
+                    <Link className="link" to="/LabEsuipment/miniJET">MINIJET</Link>
+                    <Link className="link" to="/LabEsuipment/texair">TEXAIR</Link>
+                    <Link className="link" to="/LabEsuipment/zp400">ZP400</Link>
+                    <Link className="link" to="/LabEsuipment/miniDryer">Mini Dryer</Link>
+                    <Link className="link" to="/LabEsuipment/smallLotsDryer">Small lots dryer</Link>
+                    <Link className="link" to="/LabEsuipment/colourLight">Colour Light</Link>
+                    <Link className="link" to="/LabEsuipment/phCube">pH CUBE</Link>
                 </div>
 
                 <div className="detailsContainer">

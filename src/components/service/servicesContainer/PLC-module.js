@@ -1,14 +1,16 @@
-import productImage from "../../../assets/products/LAB/SalceDescription.jpg"
+
+
+import productImage from "../../../assets/products/Yarn Dyeing/CarrierDesctip.jpg";
 
 
 //import for banner image 
-import backgroundImage from "../../../assets/backgroundImage/Automation-and-Retrofit-StairWay-Trading.jpg"
+import backgroundImage from "../../../assets/backgroundImage/Automation-and-Retrofit-StairWay-Trading.jpg";
 
 
 import BannerOrMiniImage from "../../smallSections/bannerOrMiniImg";
 import { Link } from "react-router-dom";
 
-function ModulabSBM (){
+function PLCmodule (){
         return (
         <div>
             <BannerOrMiniImage banner = {backgroundImage}/>
@@ -25,8 +27,8 @@ function ModulabSBM (){
 
                 <div className="detailsContainer">
                     <div className="productModleAndDetails">
-                        <h4>MODULAB SBM</h4>
-                        <p>SALCE's Modulab SBM, handle complete automatically both the liquids and the powders and volumetric dispenser with integrated dyeing units.</p>
+                        <h4>************</h4>
+                        <p>*************************************</p>
                     </div>
 
                     <div className="productImage">
@@ -35,18 +37,11 @@ function ModulabSBM (){
 
                     <div className="productSpecification">
                         <h4>Specification</h4>
-                        <p>Real-time check of the accuracy of each dosing; Scale accuracy : +/- 0.001gr</p>
-                        {/* <span></span> */}
-                        <p>Preparation of solutions, expired and/or finished stock solutions & Automatic washing of the bottles.</p>
-                        {/* <span></span> */}
-                        <p>Automatic liquor ratio.</p>
-                        {/* <span></span> */}
-                        <p>Interface with all the most common Colour Matching Systems.</p>
+                        <p>*****************************</p>
                     </div>
                 </div>
             </div>
         </div>
         );
     };
-
-export default ModulabSBM;
+export default PLCmodule;
