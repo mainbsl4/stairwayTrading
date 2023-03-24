@@ -5,12 +5,12 @@ import PartnersCard from "../smallSections/partnersCard";
 
 
 
-import GSESeriesDescription from "../../assets/products/Yarn Dyeing/GSE–seriesDescription.jpg";
-import GSHSeriesDescription from "../../assets/products/Yarn Dyeing/GSH-seriesDescription.jpg";
-import sp110Descrip from "../../assets/products/Yarn Dyeing/sp110Descrip.jpg";
-import SPSimplexLanding from "../../assets/products/Yarn Dyeing/SPSimplexDescrip.jpg";
-import HANKSLanding from "../../assets/products/Yarn Dyeing/HANKSLanding.jpg";
-import CarrierLanding from "../../assets/products/Yarn Dyeing/CarrierLanding.jpg";
+import GSESeriesDescription from "../../assets/products/Yarn Dyeing/GSE–seriesDescription.png";
+import GSHSeriesDescription from "../../assets/products/Yarn Dyeing/GSH-seriesDescription.png";
+import sp110Descrip from "../../assets/products/Yarn Dyeing/sp110Descrip.png";
+import SPSimplexLanding from "../../assets/products/Yarn Dyeing/SPSimplexDescrip.png";
+import HANKSLanding from "../../assets/products/Yarn Dyeing/HANKSLanding.png";
+import CarrierLanding from "../../assets/products/Yarn Dyeing/CarrierLanding.png";
 
 
 

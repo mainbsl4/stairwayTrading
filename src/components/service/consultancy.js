@@ -24,27 +24,27 @@ function Consultancy () {
             <div className="ConsultancySection d-flex justify-content-center align-items-center flex-column">
                 <div className="sectionHeader">
                     <h3>Consultancy</h3>
-                    <span className="headerAnimation"></span>
+                    {/* <span className="headerAnimation"></span> */}
                 </div>
 
                 <div className="discriptionBox">
                     {/* <button onClick={click}>click</button> */}
                     <p>Intelligent Resource management, innovative ideas among engineers, scientist and industrialists about modern machinery applied in textile industries, especially solutions for optimized use of resources with implementable sustainable technologies are indeed of good topics of discus and that is what we are here for you.</p>
-                    <ul>
-                        <li>Services for smooth running of existing setup</li>
-                        <li>Productivity Improvement</li>
-                        <li>Setting up of systems</li>
-                        <li>Trouble shooting</li>
-                        <li>Latest Updates</li>
-                        <li>Training <span>(</span>if Required<span>)</span></li>
-                        <li>New Recruitment</li>
+                    <div>
+                        <p>Services for smooth running of existing setup</p>
+                        <p>Productivity Improvement</p>
+                        <p>Setting up of systems</p>
+                        <p>Trouble shooting</p>
+                        <p>Latest Updates</p>
+                        <p>Training <span>(</span>if Required<span>)</span></p>
+                        <p>New Recruitment</p>
                         <br></br>
                         <h6>New Plant & Expansions</h6>
-                        <li>Factory layout plan (operational)</li>
-                        <li>Project Commissioning</li>
-                        <li>Production setup</li>
-                        <li>Help in running of project</li>
-                    </ul>
+                        <p>Factory layout plan (operational)</p>
+                        <p>Project Commissioning</p>
+                        <p>Production setup</p>
+                        <p>Help in running of project</p>
+                    </div>
                     {/* <i>CEO/STAIRWAY</i> */}
                 </div>
             </div>

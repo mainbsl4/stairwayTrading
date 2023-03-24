@@ -1,7 +1,7 @@
 
 
 
-import productImage from "../../../assets/products/LAB/PHControlSystem.jpg"
+import productImage from "../../../assets/products/LAB/PHControlSystem.png"
 
 
 //import for banner image 

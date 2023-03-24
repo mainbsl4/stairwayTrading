@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/Service/AUTOMATION_RETTROFIT/DATEX_SMART_TOUCH_M.jpg";
+import productImage from "../../../assets/Service/AUTOMATION_RETTROFIT/DATEX_SMART_TOUCH_M.png";
 
 
 //import for banner image 

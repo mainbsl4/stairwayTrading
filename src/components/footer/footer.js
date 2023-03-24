@@ -14,10 +14,10 @@ function Footer (){
                 <div className="footerHeading">
                     <h5>About Stair Way Trading</h5>
                 </div>
-                <ul>
-                    <li>Stairway Trading has been established as an innovative textile machinery solution provider in Bangladesh.</li>
-                    <li>We represent various Textile machinery manufacturers from Europe, China, Korea, etc for their sale and service activities. Based on our strong technology and relationships with our trusted principals, we have evolved into an efficient solution provider to the Textile supply chain.</li>
-                </ul>
+                <div>
+                    <p>Stairway Trading has been established as an innovative textile machinery solution provider in Bangladesh.</p>
+                    <p>We represent various Textile machinery manufacturers from Europe, China, Korea, etc for their sale and service activities. Based on our strong technology and relationships with our trusted principals, we have evolved into an efficient solution provider to the Textile supply chain.</p>
+                </div>
             </div>
 
             {/* <div className="footerSectionOne">
@@ -31,13 +31,13 @@ function Footer (){
                     <h5>Important Links</h5>
                 </div>
                 <div className="footerSectionTwoOfTwo">
-                    <Link to="/">Accessibility</Link>
-                    <Link to="/">Cookie Policy</Link>
-                    <Link to="/Contact">Contact Us</Link>
-                    <Link to="/">Legal Disclaimer</Link>
-                    <Link to="/">Privacy Policy</Link>
-                    <Link to="/">Security</Link>
-                    <Link to="/">Sitemap</Link>
+                    <Link className="link" to="/">Accessibility</Link>
+                    <Link className="link" to="/">Cookie Policy</Link>
+                    <Link className="link" to="/Contact">Contact Us</Link>
+                    <Link className="link" to="/">Legal Disclaimer</Link>
+                    <Link className="link" to="/">Privacy Policy</Link>
+                    <Link className="link" to="/">Security</Link>
+                    <Link className="link" to="/">Sitemap</Link>
                 </div>
             </div>
             <div className="footerSectionThree">
@@ -46,13 +46,14 @@ function Footer (){
                 </div>
 
                 <div className="footerSectionThreeOfTwo">
-                    <Link to="/">Indiline 2.0</Link>
-                    <Link to="/">Date</Link>
+                    <Link className="link" to="/">Indiline 2.0</Link>
+                    <Link className="link" to="/">Date</Link>
+                    <Link className="link" to="/">Indiline 2.0</Link>
+                    <Link className="link" to="/">Indiline 2.0</Link>
                 </div>
-                <div className="footerSectionThreeOfThree">
-                    <Link to="/">Indiline 2.0</Link>
-                    <Link to="/">Indiline 2.0</Link>
-                </div>
+                {/* <div className="footerSectionThreeOfThree">
+                    
+                </div> */}
             </div>
             <hr></hr>
             </div>

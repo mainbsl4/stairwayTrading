@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/LAB/SalceDescription.jpg"
+import productImage from "../../../assets/products/LAB/SalceDescription.png"
 
 
 //import for banner image 

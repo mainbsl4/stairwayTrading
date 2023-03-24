@@ -1,7 +1,7 @@
 
 
 
-import productImage from "../../../assets/products/LAB/MiniDryerDescrip.jpg"
+import productImage from "../../../assets/products/LAB/MiniDryerDescrip.png"
 
 
 //import for banner image 

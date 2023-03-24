@@ -1,7 +1,7 @@
 
 
 
-import productImage from "../../../assets/products/LAB/colour-descrip.jpg"
+import productImage from "../../../assets/products/LAB/colour-descrip.png"
 
 
 //import for banner image 

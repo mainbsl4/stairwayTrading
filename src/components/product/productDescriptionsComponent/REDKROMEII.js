@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/LAB/IRLABDyeingmachineDescr.jpg"
+import productImage from "../../../assets/products/LAB/IRLABDyeingmachineDescr.png"
 
 
 //import for banner image 

@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/LAB/LAB-HANKDescrip.jpg"
+import productImage from "../../../assets/products/LAB/LAB-HANKDescrip.png";
 
 
 //import for banner image 

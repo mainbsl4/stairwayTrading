@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/Winding/HardWindingDescription.jpg"
+import productImage from "../../../assets/products/Winding/HardWindingDescription.png"
 
 
 //import for banner image 

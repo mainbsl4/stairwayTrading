@@ -5,10 +5,10 @@ import PartnersCard from "../smallSections/partnersCard";
 
 
 // image 
-import DATEX_SMART_TOUCH_M from "../../assets/Service/AUTOMATION_RETTROFIT/DATEX_SMART_TOUCH_M.jpg";
-import datexSmartTouch_S from "../../assets/Service/AUTOMATION_RETTROFIT/datex-smart-touch-s.jpg";
-import plc_master from "../../assets/Service/AUTOMATION_RETTROFIT/plc-master.jpg";
-import SAplc_modul_ioLCE from "../../assets/Service/AUTOMATION_RETTROFIT/plc-modul-io.jpg";
+import DATEX_SMART_TOUCH_M from "../../assets/Service/AUTOMATION_RETTROFIT/DATEX_SMART_TOUCH_M.png";
+import datexSmartTouch_S from "../../assets/Service/AUTOMATION_RETTROFIT/datex-smart-touch-s.png";
+import plc_master from "../../assets/Service/AUTOMATION_RETTROFIT/plc-master.png";
+import SAplc_modul_ioLCE from "../../assets/Service/AUTOMATION_RETTROFIT/plc-modul-io.png";
 
 // image 
 

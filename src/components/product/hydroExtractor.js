@@ -7,7 +7,7 @@ import PartnersCard from "../smallSections/partnersCard";
 
 
 import HydroLanding from "../../assets/products/Hydroextractor/HydroLanding.png";
-import labHydroLanding from "../../assets/products/Hydroextractor/labHydroLanding.jpg";
+import labHydroLanding from "../../assets/products/Hydroextractor/labHydroLanding.png";
 
 
 

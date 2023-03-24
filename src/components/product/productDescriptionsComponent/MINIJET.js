@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/LAB/minijet-descrip.jpg"
+import productImage from "../../../assets/products/LAB/minijet-descrip.png"
 
 
 //import for banner image 

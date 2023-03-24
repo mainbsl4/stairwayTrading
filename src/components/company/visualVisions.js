@@ -21,10 +21,10 @@ function VisualVisions () {
             </div>
 
             <div className="discriptionBox">
-                <ul>
-                    <li>STAIRWAY Trading envisions that as Bangladesh apparel offers one of the top sustainable industries globally with most LEED Certified factories – we enable apparel factories with full fledge automation services to aid them in increase environmental sustainability and more profitability.</li>
-                    <li>Our value is we make 'O' zero tolerance in terms of providing quality products and after-sales services.</li>
-                </ul>
+                <div>
+                    <p>STAIRWAY Trading envisions that as Bangladesh apparel offers one of the top sustainable industries globally with most LEED Certified factories – we enable apparel factories with full fledge automation services to aid them in increase environmental sustainability and more profitability.</p>
+                    <p>Our value is we make 'O' zero tolerance in terms of providing quality products and after-sales services.</p>
+                </div>
                 {/* <i>CEO/STAIRWAY</i> */}
             </div>
         </div>

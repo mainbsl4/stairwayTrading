@@ -1,5 +1,5 @@
 
-import productImage from "../../../assets/Service/AUTOMATION_RETTROFIT/plc-master.jpg";
+import productImage from "../../../assets/Service/AUTOMATION_RETTROFIT/plc-master.png";
 
 
 //import for banner image 

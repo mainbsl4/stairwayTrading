@@ -302,6 +302,10 @@ body{
 }
   
 
+.discriptionBox div p{
+    text-align: justify;
+}
+
 
 
 
@@ -594,7 +598,7 @@ body{
     /* color: rgb(163, 162, 162); */
     border-radius: 50%;
     padding: 8px;
-    border: 3px dotted #040404;
+    /* border: 3px dotted #040404; */
     box-shadow: 10px 10px 20px 20px #b8b9be, -3px -3px -6px -6px rgb(240, 239, 239);
   }
   
@@ -672,7 +676,7 @@ input[type=text], select {
     /* display: inline-block; */
     border: none;
     font-size: 14px;
-    border: #ccc 1px solid;
+    /* border: #ccc 1px solid; */
     outline: none;
     border-radius: 10px;
     box-shadow: 1px 1px 4px #b5b6b9, -3px -3px 6px rgb(238 235 235);
@@ -689,7 +693,7 @@ input[type=text], select {
     color: #495057;
     /* background-color: #fff; */
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    /* border: 1px solid #ced4da; */
     border-radius: 0.25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
@@ -816,7 +820,7 @@ input[type=text], select {
     text-decoration: none;
     /* background-color: #00acee; */
     /* border: 1px solid red; */
-    border: .5px solid #040404;
+    border: 1px solid #040404;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -847,13 +851,18 @@ input[type=text], select {
 .productDescriptionContainer .detailsContainer .productImage{
 
     width: 50%;
-    height: auto;
+    /* height: auto; */
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
     /* background-color: red; */
 }
 
 .productDescriptionContainer .detailsContainer .productImage img{
-    width: 100%;
-    height: auto;
+    width: 65%;
+    /* height: auto; */
+    height: 100%;
 }
 
 
@@ -917,17 +926,21 @@ input[type=text], select {
     text-align: center;
 } */
 
-.footer .footerTop .footerSectionOne ul li{
+/* .footer .footerTop .footerSectionOne ul li{
     list-style-type: square;
-}
+} */
 
 .footer .footerSectionTwoOfTwo,
-.footer .footerSectionThreeOfTwo,
-.footer .footerSectionThreeOfThree{
+.footer .footerSectionThreeOfTwo{
     display: grid;
     justify-content: left;
     align-items: center;
     flex-direction: column;
+}
+
+.footer .footerSectionTwoOfTwo .link,
+.footer .footerSectionThreeOfTwo .link{
+    color: #040404;
 }
 
 .footer .footerBottom{
@@ -1007,7 +1020,7 @@ input[type=text], select {
 .hideToTopBtn{
     width: 30px;
     height: 30px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1017,7 +1030,7 @@ input[type=text], select {
     text-decoration: none;
     color: #040404;
     font-size: 24px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     display: none;
     /* font-weight: bolder; */
 }
@@ -1025,7 +1038,7 @@ input[type=text], select {
 .vidibleToTopBtn{
     width: 30px;
     height: 30px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1035,8 +1048,8 @@ input[type=text], select {
     text-decoration: none;
     color: #040404;
     font-size: 24px;
-    border: 2px solid #040404;
-    border-radius: 5px;
+    /* border: 2px solid #040404; */
+    /* border-radius: 5px; */
     /* display: block; */
     /* font-weight: bolder; */
 }
@@ -1073,6 +1086,19 @@ input[type=text], select {
     }
 
 /* Card bidy -------- */
+
+
+
+/* Product description Container  */
+
+.productDescriptionContainer .detailsContainer .productImage img{
+    width: 80%;
+    /* height: auto; */
+    height: 100%;
+}
+
+/* Product description Container  */
+
 
 }
 
@@ -1297,6 +1323,25 @@ input[type=text], select {
     padding: 0px 50px;
     /* text-align: justify; */
 }
+
+
+.productDescriptionContainer .detailsContainer .productImage{
+
+    width: 50%;
+    /* height: auto; */
+    height: auto;
+    /* display: flex;
+    justify-content: center; */
+    /* background-color: red; */
+    /* background-color: red; */
+}
+
+.productDescriptionContainer .detailsContainer .productImage img{
+    width: 100%;
+    /* height: auto; */
+    height: auto;
+}
+
 /* Product description Container  */
 
 }

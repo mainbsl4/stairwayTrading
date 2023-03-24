@@ -5,12 +5,12 @@ import PartnersCard from "../smallSections/partnersCard";
 
 // Partnars image 
 
-import BecatronAGLogo from "../../assets/Business Partner/BecatronAGLogo.jpg";
-import pozziLogo from "../../assets/Business Partner/pozziLogo.jpg"
-import SALCELogo from "../../assets/Business Partner/SALCELogo.jpg"
-import Testa from "../../assets/Business Partner/Testa.jpg"
-import UGOLINI from "../../assets/Business Partner/UGOLINI.jpg"
-import UgoliniLabLogo from "../../assets/Business Partner/UgoliniLabLogo.jpg"
+import BecatronAGLogo from "../../assets/Business Partner/BecatronAGLogo.png";
+import pozziLogo from "../../assets/Business Partner/pozziLogo.png"
+import SALCELogo from "../../assets/Business Partner/SALCELogo.png"
+import Testa from "../../assets/Business Partner/Testa.png"
+import UGOLINI from "../../assets/Business Partner/UGOLINI.png"
+import UgoliniLabLogo from "../../assets/Business Partner/UgoliniLabLogo.png"
 
 
 // Partnars image 
@@ -31,7 +31,7 @@ function BusinessPartners () {
         <div className="BusinessPartnersSection">
             <div className="sectionHeader">
                 <h3>Business Partners</h3>
-                <span className="headerAnimation"></span>
+                {/* <span className="headerAnimation"></span> */}
             </div>
 
             <div className="cardHeadDiscriptios">
@@ -47,6 +47,9 @@ function BusinessPartners () {
                     <a className = "productLink" href="https://www.testagroup.eu/en" target={blank}><PartnersCard image={Testa} head = {"Testa Group srl"} body ={"Automatic fabric inspection & Cutting optimization."} /></a>
                     <a className = "productLink" href="https://www.ugolini.net" target={blank}><PartnersCard image={UGOLINI} head = {"UGOLINI srl"} body ={"Dyeing machine."} /></a>
                     <a className = "productLink" href="https://www.ugolab.net" target={blank}><PartnersCard image={UgoliniLabLogo} head = {"UGOLAB"} body ={"Lab machinery for dye house."} /></a>
+                    <a className = "productLink" href="https://www.ugolab.net" target={blank}><PartnersCard image={UgoliniLabLogo} head = {"UGOLAB"} body ={"Lab machinery for dye house."} /></a>
+                    <a className = "productLink" href="https://www.ugolab.net" target={blank}><PartnersCard image={UgoliniLabLogo} head = {"UGOLAB"} body ={"Lab machinery for dye house."} /></a>
+
                 </div>
                 {/* <i>CEO/STAIRWAY</i> */}
             </div>

@@ -4,8 +4,8 @@ import BannerOrMiniImage from "../smallSections/bannerOrMiniImg";
 
 
 
-import SoftWindingLanding from "../../assets/products/Winding/SoftWindingLanding.jpg";
-import HardWindingLanding from "../../assets/products/Winding/HardWindingLanding.jpg";
+import SoftWindingLanding from "../../assets/products/Winding/SoftWindingLanding.png";
+import HardWindingLanding from "../../assets/products/Winding/HardWindingLanding.png";
 import { Link } from "react-router-dom";
 import PartnersCard from "../smallSections/partnersCard";
 

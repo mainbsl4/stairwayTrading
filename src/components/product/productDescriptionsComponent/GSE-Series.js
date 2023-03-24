@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/Yarn Dyeing/GSE–seriesDescription.jpg"
+import productImage from "../../../assets/products/Yarn Dyeing/GSE–seriesDescription.png"
 
 
 //import for banner image 

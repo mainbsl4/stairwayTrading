@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/LAB/Hydrodescrip.jpg"
+import productImage from "../../../assets/products/LAB/HydroDescripLab.png"
 
 
 //import for banner image 
@@ -36,7 +36,7 @@ function ZP400 (){
                     </div>
 
                     <div className="productImage">
-                        <img src = {productImage} alt="MODULAB SBM"/>
+                        <img src = {productImage} alt="ZP400"/>
                     </div>
 
                     <div className="productSpecification">

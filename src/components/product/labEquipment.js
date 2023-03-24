@@ -4,17 +4,17 @@ import BannerOrMiniImage from "../smallSections/bannerOrMiniImg";
 import PartnersCard from "../smallSections/partnersCard";
 
 // image
-import SALCE from "../../assets/products/LAB/SALCE.jpg";
+import SALCE from "../../assets/products/LAB/SALCE.png";
 import IRLABDyeingLanding from "../../assets/products/LAB/IRLABDyeingLanding.png";
-import minisimplexDescr from "../../assets/products/LAB/minisimplex-descr.jpg";
-import LABHANKdescrip from "../../assets/products/LAB/LAB-HANKdescrip.png";
-import SALminijetDescripCE from "../../assets/products/LAB/minijet-descrip.jpg";
-import texairDescrip from "../../assets/products/LAB/texairDescrip.jpg";
-import HydroDescrip from "../../assets/products/LAB/HydroDescrip.png";
+import minisimplexDescr from "../../assets/products/LAB/minisimplex-descr.png";
+import LABHANKdescrip from "../../assets/products/LAB/LAB-HANKLanding.png";
+import SALminijetDescripCE from "../../assets/products/LAB/minijet-descrip.png";
+import texairDescrip from "../../assets/products/LAB/texairDescrip.png";
+import HydroDescrip from "../../assets/products/LAB/HydroDescripLab.png";
 import MiniDryerDescrip from "../../assets/products/LAB/MiniDryerDescrip.png";
-import SMALLLOTSDRYERDescrip from "../../assets/products/LAB/SMALLLOTSDRYERDescrip.jpg";
-import colourDescrip from "../../assets/products/LAB/colour-descrip.jpg";
-import PHControlSystem from "../../assets/products/LAB/PHControlSystem.jpg";
+import SMALLLOTSDRYERDescrip from "../../assets/products/LAB/SMALLLOTSDRYERDescrip.png";
+import colourDescrip from "../../assets/products/LAB/colour-descrip.png";
+import PHControlSystem from "../../assets/products/LAB/PHControlSystem.png";
 // image 
 
 

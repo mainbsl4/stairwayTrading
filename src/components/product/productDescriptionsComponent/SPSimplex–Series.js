@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/Yarn Dyeing/SPSimplexDescrip.jpg"
+import productImage from "../../../assets/products/Yarn Dyeing/SPSimplexDescrip.png"
 
 
 //import for banner image 

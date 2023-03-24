@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/Yarn Dyeing/CarrierDesctip.jpg";
+import productImage from "../../../assets/products/Yarn Dyeing/CarrierDesctip.png";
 
 
 //import for banner image 

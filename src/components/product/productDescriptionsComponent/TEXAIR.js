@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/LAB/texairDescrip.jpg"
+import productImage from "../../../assets/products/LAB/texairDescrip.png"
 
 
 //import for banner image 

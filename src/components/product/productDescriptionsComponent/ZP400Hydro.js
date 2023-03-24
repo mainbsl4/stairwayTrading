@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/LAB/Hydrodescrip.jpg"
+import productImage from "../../../assets/products/Hydroextractor/Hydrodescrip.png"
 
 
 //import for banner image 

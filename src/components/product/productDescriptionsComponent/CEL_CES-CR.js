@@ -1,4 +1,4 @@
-import productImage from "../../../assets/products/Hydroextractor/HIMATS-LAY-OUT_02.58.jpg"
+import productImage from "../../../assets/products/Hydroextractor/HIMATS-LAY-OUT_02.58.png"
 
 
 //import for banner image 
