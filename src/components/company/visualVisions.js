@@ -29,7 +29,7 @@ function VisualVisions () {
             </div>
         </div>
     </section>
-    )
-}
+    );
+};
 
 export default VisualVisions;

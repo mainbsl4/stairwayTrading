@@ -37,15 +37,16 @@ function PHCUBE (){
                     </div>
 
                     <div className="productImage">
-                        <img src = {productImage} alt="MODULAB SBM"/>
+                        <img style={{width:"60%"}} src = {productImage} alt="MODULAB SBM"/>
                     </div>
 
                     <div className="productSpecification">
                         <h4>Specification</h4>
                         <p>pH control system.</p>
-                        {/* <span></span> */}
+                        <hr></hr>
+                        {/* <div className="span"></div> */}
                         <p>BECATRON AG – Switzerland</p>
-                        {/* <span></span> */}
+                        <span></span>
                     </div>
                 </div>
             </div>

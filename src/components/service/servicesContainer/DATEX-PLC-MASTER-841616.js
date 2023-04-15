@@ -28,7 +28,7 @@ function DATEXPLCMASTER841616 (){
                     </div>
 
                     <div className="productImage">
-                        <img src = {productImage} alt="MODULAB SBM"/>
+                        <img style={{width:"60%"}} src = {productImage} alt="MODULAB SBM"/>
                     </div>
 
                     <div className="productSpecification">

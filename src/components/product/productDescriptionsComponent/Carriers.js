@@ -31,7 +31,7 @@ function Carriers (){
                     </div>
 
                     <div className="productImage">
-                        <img src = {productImage} alt="MODULAB SBM"/>
+                        <img style={{width:"75%"}} src = {productImage} alt="MODULAB SBM"/>
                     </div>
 
                     <div className="productSpecification">

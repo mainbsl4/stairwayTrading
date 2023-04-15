@@ -81,16 +81,16 @@ const blankLink = "#";
                     <li>
                         <span className="navLink">Product</span>
                         <div className="dropDown">
-                            <Link className="dropDownLink" to="/LabEsuipment">Lab Esuipment</Link>
-                            <Link className="dropDownLink" to="/YarnDyeingMachine">Yarn Dyeing Machine</Link>
-                            <Link className="dropDownLink" to="/FabricDyeingMachine">Fabric Dyeing Machine</Link>
-                            <Link className="dropDownLink" to="/HydroExtractor">Hydro Extractor</Link>
-                            <Link className="dropDownLink" to="/WindingMachine">Winding Machine</Link>
-                            <Link className="dropDownLink" to="/DispensingAutomation">Dispensing Automation</Link>
-                            <Link className="dropDownLink" to="/HitRecoverySystem">Hit Recovery System</Link>
-                            <Link className="dropDownLink" to="/TextileERP">Textile ERP</Link>
-                            <Link className="dropDownLink" to="/IndigoMonitoringSystem">Indigo Monitoring System</Link>
-                            <Link className="dropDownLink" to="/AutomaticInsprection&Packing">Automatic Insprection & Packing</Link>
+                            <Link className="dropDownLink" to = "/LabEsuipment">Lab Esuipment</Link>
+                            <Link className="dropDownLink" to = "/YarnDyeingMachine">Yarn Dyeing Machine</Link>
+                            <Link className="dropDownLink" to = "/FabricDyeingMachine">Fabric Dyeing Machine</Link>
+                            <Link className="dropDownLink" to = "/HydroExtractor">Hydro Extractor</Link>
+                            <Link className="dropDownLink" to = "/WindingMachine">Winding Machine</Link>
+                            <Link className="dropDownLink" to = "/DispensingAutomation">Dispensing Automation</Link>
+                            <Link className="dropDownLink" to = "/HitRecoverySystem">Hit Recovery System</Link>
+                            <Link className="dropDownLink" to = "/TextileERP">Textile ERP</Link>
+                            <Link className="dropDownLink" to = "/IndigoMonitoringSystem">Indigo Monitoring System</Link>
+                            <Link className="dropDownLink" to = "/AutomaticInsprection&Packing">Automatic Insprection & Packing</Link>
                         </div>
                     </li>
                     <li>

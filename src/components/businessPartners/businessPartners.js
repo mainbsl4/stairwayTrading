@@ -11,6 +11,7 @@ import SALCELogo from "../../assets/Business Partner/SALCELogo.png"
 import Testa from "../../assets/Business Partner/Testa.png"
 import UGOLINI from "../../assets/Business Partner/UGOLINI.png"
 import UgoliniLabLogo from "../../assets/Business Partner/UgoliniLabLogo.png"
+import selfSilverabc from "../../assets/Business Partner/selfSilver.svg"
 
 
 // Partnars image 
@@ -47,8 +48,8 @@ function BusinessPartners () {
                     <a className = "productLink" href="https://www.testagroup.eu/en" target={blank}><PartnersCard image={Testa} head = {"Testa Group srl"} body ={"Automatic fabric inspection & Cutting optimization."} /></a>
                     <a className = "productLink" href="https://www.ugolini.net" target={blank}><PartnersCard image={UGOLINI} head = {"UGOLINI srl"} body ={"Dyeing machine."} /></a>
                     <a className = "productLink" href="https://www.ugolab.net" target={blank}><PartnersCard image={UgoliniLabLogo} head = {"UGOLAB"} body ={"Lab machinery for dye house."} /></a>
-                    <a className = "productLink" href="https://www.ugolab.net" target={blank}><PartnersCard image={UgoliniLabLogo} head = {"UGOLAB"} body ={"Lab machinery for dye house."} /></a>
-                    <a className = "productLink" href="https://www.ugolab.net" target={blank}><PartnersCard image={UgoliniLabLogo} head = {"UGOLAB"} body ={"Lab machinery for dye house."} /></a>
+                    <a className = "productLink" href="http://gumusenerji.com" target={blank}><PartnersCard image={selfSilverabc} head = {"Self Silver Steamer"} body ={"Saves 80 Nm³/h Natural Gas."} /></a>
+                    {/* <a className = "productLink" href="https://www.ugolab.net" target={blank}><PartnersCard image={UgoliniLabLogo} head = {"UGOLAB"} body ={"Lab machinery for dye house."} /></a> */}
 
                 </div>
                 {/* <i>CEO/STAIRWAY</i> */}

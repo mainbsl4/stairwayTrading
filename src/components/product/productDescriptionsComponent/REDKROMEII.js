@@ -36,7 +36,7 @@ function REDKROMEII (){
                     </div>
 
                     <div className="productImage">
-                        <img src = {productImage} alt=" REDKROMEII "/>
+                        <img style={{width:"60%"}} src = {productImage} alt=" REDKROMEII "/>
                     </div>
 
                     <div className="productSpecification">

@@ -21,6 +21,8 @@ body{
     left: 0px;
     background-color: #e2eafc !important;
     z-index: 999;
+    /* border-bottom: 1px solid #ced6e0; */
+    box-shadow: 2px 0px 10px 2px #0001;
 }
 
 /* #head.sticky{
@@ -116,9 +118,9 @@ body{
     width: 250px;
     display: none;
     position: absolute;
-    top: 70px;
+    top: 69px;
     /* box-shadow: 2px 2px 1px 2px #57606f; */
-    border: .5px solid #ced6e0;
+    border: 1px solid #ced6e0;
     overflow: hidden;
     border-top: .5px solid #f1f2f6;
 }
@@ -173,6 +175,8 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
+    padding: 0px 8%;
+    /* background-color: red; */
 }
 
 
@@ -499,7 +503,6 @@ body{
     position: relative;
     border-radius: 15px 15px 0px 0px;
     z-index: 20;
-
 }
 
 .personCard .top .imgBody{
@@ -807,6 +810,8 @@ input[type=text], select {
 .productDescriptionContainer{
     display: grid;
     grid-template-columns: 15% 85%;
+    padding: 0px 10%;
+    /* background-color: red; */
 }
 
 .productDescriptionContainer .linkBody{
@@ -820,11 +825,12 @@ input[type=text], select {
     text-decoration: none;
     /* background-color: #00acee; */
     /* border: 1px solid red; */
-    border: 1px solid #040404;
+    /* border: 1px solid #040404; */
     border-radius: 5px;
     display: flex;
-    justify-content: center;
-    padding: 5px 0px;
+    justify-content: left;
+    align-items: center;
+    padding: 5px 0px 5px 20px;
     margin-top: 4px;
 }
 
@@ -835,12 +841,92 @@ input[type=text], select {
 }
 
 
+
+/* aaaaaaaaaaaaa */
+
+.productDescriptionContainer .aaa{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.productDescriptionContainer .aaa .link{
+    color: #040404;
+    text-decoration: none;
+    /* background-color: #00acee; */
+    /* border: 1px solid red; */
+    /* border: 1px solid #040404; */
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: left;
+    align-items: center; */
+    /* padding: 5px 0px 5px 20px; */
+    margin-top: 15px;
+    /* background-color: red; */
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* background-color: #0072b1; */
+    /* background-color: #ced6e0; */
+    /* padding-right: 20px; */
+    /* box-shadow:  4px 4px 5px 0px #0001, 
+    5px 5px 15px 0px #0001,
+    6px 6px 15px 0px #0001,
+    -7px -7px 15px 0px #ffffff,
+    -4px -4px 5px 0px #ffffff; */
+    filter: drop-shadow(2px 2px 5px #0001)
+    drop-shadow(2px 2px 15px #0001)
+    drop-shadow(3px 3px 15px #0001)
+    drop-shadow(-1px -1px 10px #ffffff)
+    drop-shadow(-1px -1px 5px #ffffff);
+
+
+}
+
+.productDescriptionContainer .aaa .link span{
+    width: 100%;
+    height: 100%;
+    padding: 7px 0px 7px 40px;
+    /* padding: 5px 0px 5px 20px; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #e2eafc;
+    clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 15% 50%, 0% 0%);
+
+}
+
+
+.productDescriptionContainer .aaa .link:hover{
+    /* transition: .4s ease-in-out; */
+    /* filter: drop-shadow(4px 4px 5px #0001)
+    drop-shadow(5px 5px 15px #0001)
+    drop-shadow(6px 6px 15px #0001)
+    drop-shadow(-2px -2px 15px #ffffff)
+    drop-shadow(-2px -2px 5px #ffffff); */
+    /* filter: drop-shadow(); */
+
+}
+
+.productDescriptionContainer .aaa .link:hover span{
+    /* background-color: #e2eafc; */
+    background-color: #a4b0be5a;
+
+}
+
+/* aaaaaaaaaaaaa */
+
 .productDescriptionContainer .detailsContainer{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0px 10px 0px 20px;
+    padding: 0px 0px 0px 40px;
     /* flex-direction: column; */
 }
 
@@ -850,33 +936,121 @@ input[type=text], select {
 
 .productDescriptionContainer .detailsContainer .productImage{
 
-    width: 50%;
-    /* height: auto; */
-    height: 450px;
+    width: 55%;
+    height: auto;
+    /* height: 450px; */
     display: flex;
     justify-content: center;
     /* background-color: red; */
-    /* background-color: red; */
+    padding: 15px 0px;
+    border-radius: 5px;
+    box-shadow:  4px 4px 5px 0px #0001, 
+    5px 5px 15px 0px #0001,
+    6px 6px 15px 0px #0001,
+    -7px -7px 15px 0px #ffffff,
+    -4px -4px 5px 0px #ffffff;
 }
 
 .productDescriptionContainer .detailsContainer .productImage img{
-    width: 65%;
+    width: 90%;
+    height: auto !important;
     /* height: auto; */
-    height: 100%;
+    /* height: auto; */
 }
 
 
 .productDescriptionContainer .detailsContainer .productSpecification{
-    width: 50%;
-    padding: 0px 90px;
+    width: 45%;
+    padding: 0px 0px 0px 60px;
     text-align: justify;
+    line-height: normal;
 }
 
 
 .productDescriptionContainer .detailsContainer .productSpecification p{
-    border-bottom: 1px solid #ced6e0;
+    /* border-bottom: 1px solid #ced6e0; */
+    word-wrap: break-word;
+    
+    /* width: 100px !important; */
+    /* padding: 0px 10px; */
+    /* height: 100px; */
 }
+
+/* .productDescriptionContainer .detailsContainer .productSpecification div{
+    width: 100% !important;
+    height: 20px !important;
+    background-color: red !important;
+
+} */
+
 /* Product description Container  */
+
+
+
+/* HOT LINE  */
+.hotLineContainer{
+    /* background-color: red; */
+    position: fixed;
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    background-color: blue;
+}
+
+.hotLineContainer .linkBody{
+    width: 50px;
+    height: 50px;
+    padding: 0px 5px;
+    position: absolute;
+    /* top: 0px; */
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    /* margin-top: 5px; */
+}
+
+.hotLineContainer .linkBody:nth-child(1){
+    top: -50px;
+}
+.hotLineContainer .linkBody:nth-child(2){
+    top: 0px;
+}
+.hotLineContainer .linkBody:nth-child(3){
+    top: 50px;
+}
+
+.hotLineContainer .linkBody:hover{
+    height: 50px;
+    /* background-color: #040404; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width .5s ease-in-out, background-color .1s ease-in-out;
+}
+
+.hotLineContainer .linkBody:nth-child(1):hover{
+    width: 190px;
+}
+
+.hotLineContainer .linkBody:nth-child(2):hover{
+    width: 190px;
+}
+
+.hotLineContainer .linkBody:nth-child(3):hover{
+    width: 190px;
+}
+
+.hotLineContainer .linkBody:hover a{
+    display: block;
+}
+
+.hotLineContainer .linkBody a{
+    display: none;
+}
+/* HOT LINE  */
 
 
 
@@ -1071,6 +1245,8 @@ input[type=text], select {
         justify-content: space-around;
         align-items: center;
         margin-top: 20px;
+        padding: 0px 0px;
+
     }
 
 
@@ -1593,7 +1769,6 @@ input[type=text], select {
     .startSection .discriptionBox{
         width: 80%;
     }
-
 
 
         /* Card bidy -------- */
