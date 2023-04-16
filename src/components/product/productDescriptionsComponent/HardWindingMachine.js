@@ -16,8 +16,8 @@ function HardWindingMachine (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/WindingMachine/softWindingMachine">Soft Winding Machine</Link>
-                    <Link className="link" to="/WindingMachine/hardWindingMachine">Hard Winding Machine</Link>
+                    <Link className="link" to="/WindingMachine/softWindingMachine"><span>Soft Winding Machine</span></Link>
+                    <Link className="link" to="/WindingMachine/hardWindingMachine"><span>Hard Winding Machine</span></Link>
                 </div>
                 
                 <div className="detailsContainer">

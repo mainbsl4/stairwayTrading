@@ -16,13 +16,13 @@ function CESCR (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
-                    <Link className="link" to="/">Link</Link>
+                    <Link className="link" to="/"><span>Link</span></Link>
+                    <Link className="link" to="/"><span>Link</span></Link>
+                    <Link className="link" to="/"><span>Link</span></Link>
+                    <Link className="link" to="/"><span>Link</span></Link>
+                    <Link className="link" to="/"><span>Link</span></Link>
+                    <Link className="link" to="/"><span>Link</span></Link>
+                    <Link className="link" to="/"><span>Link</span></Link>
                 </div>
 
                 <div className="detailsContainer">

@@ -809,36 +809,70 @@ input[type=text], select {
 
 .productDescriptionContainer{
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 15% 75%;
+    justify-content: space-between;
     padding: 0px 10%;
     /* background-color: red; */
 }
 
 .productDescriptionContainer .linkBody{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    padding-left: 5px;
+    padding-left: 5px; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .productDescriptionContainer .linkBody .link{
-    color: #040404;
+    /* color: #040404;
     text-decoration: none;
-    /* background-color: #00acee; */
-    /* border: 1px solid red; */
-    /* border: 1px solid #040404; */
     border-radius: 5px;
     display: flex;
     justify-content: left;
     align-items: center;
     padding: 5px 0px 5px 20px;
-    margin-top: 4px;
+    margin-top: 4px; */
+
+    color: #040404;
+    text-decoration: none;
+    border-radius: 5px;
+
+    margin-top: 15px;
+    width: 100%;
+    filter: drop-shadow(2px 2px 5px #0001)
+    drop-shadow(2px 2px 15px #0001)
+    drop-shadow(3px 3px 15px #0001)
+    drop-shadow(-1px -1px 10px #ffffff)
+    drop-shadow(-1px -1px 5px #ffffff);
 }
 
 
-.productDescriptionContainer .linkBody .link:hover{
+.productDescriptionContainer .linkBody .link span{
+    width: 100%;
+    height: 100%;
+    padding: 7px 0px 7px 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #e2eafc;
+    clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 15% 50%, 0% 0%);
+
+}
+
+.productDescriptionContainer .linkBody .link:hover span{
+    /* background-color: #e2eafc; */
+    background-color: #a4b0be5a;
+
+}
+
+
+/* .productDescriptionContainer .linkBody .link:hover{
     background-color: #ced6e0;
     transition: .4s ease-in-out;
-}
+} */
 
 
 
@@ -857,28 +891,10 @@ input[type=text], select {
 .productDescriptionContainer .aaa .link{
     color: #040404;
     text-decoration: none;
-    /* background-color: #00acee; */
-    /* border: 1px solid red; */
-    /* border: 1px solid #040404; */
     border-radius: 5px;
-    /* display: flex;
-    justify-content: left;
-    align-items: center; */
-    /* padding: 5px 0px 5px 20px; */
+
     margin-top: 15px;
-    /* background-color: red; */
     width: 100%;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* background-color: #0072b1; */
-    /* background-color: #ced6e0; */
-    /* padding-right: 20px; */
-    /* box-shadow:  4px 4px 5px 0px #0001, 
-    5px 5px 15px 0px #0001,
-    6px 6px 15px 0px #0001,
-    -7px -7px 15px 0px #ffffff,
-    -4px -4px 5px 0px #ffffff; */
     filter: drop-shadow(2px 2px 5px #0001)
     drop-shadow(2px 2px 15px #0001)
     drop-shadow(3px 3px 15px #0001)
@@ -892,7 +908,6 @@ input[type=text], select {
     width: 100%;
     height: 100%;
     padding: 7px 0px 7px 40px;
-    /* padding: 5px 0px 5px 20px; */
     display: flex;
     justify-content: left;
     align-items: center;
@@ -936,7 +951,7 @@ input[type=text], select {
 
 .productDescriptionContainer .detailsContainer .productImage{
 
-    width: 55%;
+    width: 65%;
     height: auto;
     /* height: 450px; */
     display: flex;
@@ -960,7 +975,7 @@ input[type=text], select {
 
 
 .productDescriptionContainer .detailsContainer .productSpecification{
-    width: 45%;
+    width: 35%;
     padding: 0px 0px 0px 60px;
     text-align: justify;
     line-height: normal;
@@ -995,7 +1010,7 @@ input[type=text], select {
     top: 50%;
     left: 100%;
     transform: translate(-100%, -50%);
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .hotLineContainer .linkBody{
@@ -1008,18 +1023,20 @@ input[type=text], select {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: #040404;
+    color: white;
     /* margin-top: 5px; */
+    
 }
 
 .hotLineContainer .linkBody:nth-child(1){
-    top: -50px;
+    top: -55px;
 }
 .hotLineContainer .linkBody:nth-child(2){
     top: 0px;
 }
 .hotLineContainer .linkBody:nth-child(3){
-    top: 50px;
+    top: 55px;
 }
 
 .hotLineContainer .linkBody:hover{
@@ -1045,6 +1062,7 @@ input[type=text], select {
 
 .hotLineContainer .linkBody:hover a{
     display: block;
+    color: white;
 }
 
 .hotLineContainer .linkBody a{

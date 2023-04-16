@@ -16,12 +16,12 @@ function Carriers (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/YarnDyeingMachine/gseSeries">GSE – Series</Link>
-                    <Link className="link" to="/YarnDyeingMachine/gshSeries">GSH – Series</Link>
-                    <Link className="link" to="/YarnDyeingMachine/sp110series">SP110 – Series</Link>
-                    <Link className="link" to="/YarnDyeingMachine/spSimpleSeries">SP Simplex – Series</Link>
-                    <Link className="link" to="/YarnDyeingMachine/hankSeries">HANK – Series</Link>
-                    <Link className="link" to="/YarnDyeingMachine/carriers">Carriers</Link>
+                    <Link className="link" to="/YarnDyeingMachine/gseSeries"><span>GSE – Series</span></Link>
+                    <Link className="link" to="/YarnDyeingMachine/gshSeries"><span>GSH – Series</span></Link>
+                    <Link className="link" to="/YarnDyeingMachine/sp110series"><span>SP110 – Series</span></Link>
+                    <Link className="link" to="/YarnDyeingMachine/spSimpleSeries"><span>SP Simplex – Series</span></Link>
+                    <Link className="link" to="/YarnDyeingMachine/hankSeries"><span>HANK – Series</span></Link>
+                    <Link className="link" to="/YarnDyeingMachine/carriers"><span>Carriers</span></Link>
                 </div>
 
                 <div className="detailsContainer">

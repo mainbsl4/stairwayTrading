@@ -20,9 +20,8 @@ function HotLine() {
             </div>
            
         </div>
-    )
-}
-
+    );
+};
 
 
 export default HotLine;

@@ -17,17 +17,17 @@ function MiniDryer (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/LabEsuipment/modulabSBM">Modulab SBM</Link>
-                    <Link className="link" to="/LabEsuipment/redkromeii">REDKROME II</Link>
-                    <Link className="link" to="/LabEsuipment/miniSimplex">MINISIMPLEX</Link>
-                    <Link className="link" to="/LabEsuipment/labHank">Lab HANK</Link>
-                    <Link className="link" to="/LabEsuipment/miniJET">MINIJET</Link>
-                    <Link className="link" to="/LabEsuipment/texair">TEXAIR</Link>
-                    <Link className="link" to="/LabEsuipment/zp400">ZP400</Link>
-                    <Link className="link" to="/LabEsuipment/miniDryer">Mini Dryer</Link>
-                    <Link className="link" to="/LabEsuipment/smallLotsDryer">Small lots dryer</Link>
-                    <Link className="link" to="/LabEsuipment/colourLight">Colour Light</Link>
-                    <Link className="link" to="/LabEsuipment/phCube">pH CUBE</Link>
+                    <Link className="link" to="/LabEsuipment/modulabSBM"><span>Modulab SBM</span></Link>
+                    <Link className="link" to="/LabEsuipment/redkromeii"><span>REDKROME II</span></Link>
+                    <Link className="link" to="/LabEsuipment/miniSimplex"><span>MINISIMPLEX</span></Link>
+                    <Link className="link" to="/LabEsuipment/labHank"><span>Lab HANK</span></Link>
+                    <Link className="link" to="/LabEsuipment/miniJET"><span>MINIJET</span></Link>
+                    <Link className="link" to="/LabEsuipment/texair"><span>TEXAIR</span></Link>
+                    <Link className="link" to="/LabEsuipment/zp400"><span>ZP400</span></Link>
+                    <Link className="link" to="/LabEsuipment/miniDryer"><span>Mini Dryer</span></Link>
+                    <Link className="link" to="/LabEsuipment/smallLotsDryer"><span>Small lots dryer</span></Link>
+                    <Link className="link" to="/LabEsuipment/colourLight"><span>Colour Light</span></Link>
+                    <Link className="link" to="/LabEsuipment/phCube"><span>pH CUBE</span></Link>
                 </div>
 
                 <div className="detailsContainer">

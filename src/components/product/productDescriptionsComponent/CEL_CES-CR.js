@@ -14,8 +14,8 @@ function CEL_CES_CR (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/HydroExtractor/ZP400">ZP400</Link>
-                    <Link className="link" to="/HydroExtractor/cle-ces-cr">CEL/CES-CR</Link>
+                    <Link className="link" to="/HydroExtractor/ZP400"><span>ZP400</span></Link>
+                    <Link className="link" to="/HydroExtractor/cle-ces-cr"><span>CEL/CES-CR</span></Link>
                 </div>
 
                 <div className="detailsContainer">

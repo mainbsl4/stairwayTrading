@@ -16,10 +16,10 @@ function MDatexSmartTouchM (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/AutomationandRetrofit/MDatexSmartTouchM">MDatex-smart-touch-M</Link>
-                    <Link className="link" to="/AutomationandRetrofit/DatexSmartTouchS">Datex-smart-touch-S</Link>
-                    <Link className="link" to="/AutomationandRetrofit/DATEXPLCMASTER841616">DATEX PLC MASTER 841616</Link>
-                    <Link className="link" to="/AutomationandRetrofit/PLCmodule">PLC-module</Link>
+                    <Link className="link" to="/AutomationandRetrofit/MDatexSmartTouchM"><span>MDatex-smart-touch-M</span></Link>
+                    <Link className="link" to="/AutomationandRetrofit/DatexSmartTouchS"><span>Datex-smart-touch-S</span></Link>
+                    <Link className="link" to="/AutomationandRetrofit/DATEXPLCMASTER841616"><span>DATEX PLC MASTER 841616</span></Link>
+                    <Link className="link" to="/AutomationandRetrofit/PLCmodule"><span>PLC-module</span></Link>
                 </div>
 
                 <div className="detailsContainer">
