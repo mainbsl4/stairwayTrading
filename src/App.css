@@ -1024,9 +1024,13 @@ input[type=text], select {
     justify-content: center;
     align-items: center;
     background-color: #040404;
-    color: white;
+    color: #e2eafc;
     /* margin-top: 5px; */
     
+}
+
+.hotLineContainer .linkBody .icon1{
+    transform: rotate(90deg);
 }
 
 .hotLineContainer .linkBody:nth-child(1){
@@ -1063,6 +1067,7 @@ input[type=text], select {
 .hotLineContainer .linkBody:hover a{
     display: block;
     color: white;
+    margin-left: 10px;
 }
 
 .hotLineContainer .linkBody a{
@@ -1079,8 +1084,9 @@ input[type=text], select {
     margin-top: 30px;
     background-color: #a4b0be5a;
     /* color: white; */
-    padding: 15px 10px 12px 10px;
+    /* padding: 15px 10px 12px 10px; */
     text-align: justify;
+    padding: 15px 10%;
 }
 
 .footer .footerTop{
@@ -1100,6 +1106,12 @@ input[type=text], select {
 
 .footer .footerTop .footerSectionThree{
     width: 25%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: right; */
+
 }
 
 
