@@ -839,7 +839,6 @@ input[type=text], select {
     color: #040404;
     text-decoration: none;
     border-radius: 5px;
-
     margin-top: 15px;
     width: 100%;
     filter: drop-shadow(2px 2px 5px #0001)
@@ -1265,6 +1264,16 @@ input[type=text], select {
 
 /* Product image zooming  */
 
+@media (max-width: 1400px) {
+
+
+.productDescriptionContainer .linkBody .link span{
+    padding: 7px 0px 7px 30px;
+}
+
+
+}
+
 
 
 
@@ -1303,6 +1312,10 @@ input[type=text], select {
     height: 100%;
 }
 
+
+.productDescriptionContainer .linkBody .link span{
+    padding: 7px 0px 7px 20px;
+}
 /* Product description Container  */
 
 
