@@ -6,7 +6,8 @@ import PartnersCard from "../smallSections/partnersCard";
 // Partnars image 
 
 import BecatronAGLogo from "../../assets/Business Partner/BecatronAGLogo.png";
-import pozziLogo from "../../assets/Business Partner/pozziLogo.png"
+// import pozziLogo from "../../assets/Business Partner/pozziLogo.png"
+import EAS from "../../assets/Business Partner/EAS.png"
 import SALCELogo from "../../assets/Business Partner/SALCELogo.png"
 import Testa from "../../assets/Business Partner/Testa.png"
 import UGOLINI from "../../assets/Business Partner/UGOLINI.png"
@@ -42,8 +43,9 @@ function BusinessPartners () {
                 </div>
 
                 <div className = "CardBody">
-                    <a className = "productLink" href="https://www.becatron.ch" target={blank}><PartnersCard image={BecatronAGLogo} head = {"Becatron AG"} body ={"Dye house automation & indigo monitoring system."} /></a>
-                    <a className = "productLink" href="https://pozzi.it" target={blank}><PartnersCard image={pozziLogo} head = {"Pozzi Leopoldo"} body ={"Heat recovery, Chemical, dyestuff dispensing & distributions."} /></a>
+                    <a className = "productLink" href="https://www.becatron.ch" target={blank}><PartnersCard image={BecatronAGLogo} head = {"Becatron AG"} body ={"Online Monitoring for Indigo & pH System"} /></a>
+                    {/* <a className = "productLink" href="https://pozzi.it" target={blank}><PartnersCard image={pozziLogo} head = {"Pozzi Leopoldo"} body ={"Heat recovery, Chemical, dyestuff dispensing & distributions."} /></a> */}
+                    <a className = "productLink" href="https://www.escarre.com" target={blank}><PartnersCard image={EAS} head = {"EAS"} body ={"Controllers, Software, Dispensers and Color kitchen"} /></a>
                     <a className = "productLink" href="http://www.salce.it" target={blank}><PartnersCard image={SALCELogo} head = {"Salce srl"} body ={"Lab dispensing & Dyeing system."} /></a>
                     <a className = "productLink" href="https://www.testagroup.eu/en" target={blank}><PartnersCard image={Testa} head = {"Testa Group srl"} body ={"Automatic fabric inspection & Cutting optimization."} /></a>
                     <a className = "productLink" href="https://www.ugolini.net" target={blank}><PartnersCard image={UGOLINI} head = {"UGOLINI srl"} body ={"Dyeing machine."} /></a>

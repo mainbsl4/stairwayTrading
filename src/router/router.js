@@ -52,6 +52,15 @@ import DATEXPLCMASTER841616 from "../components/service/servicesContainer/DATEX-
 import DatexSmartTouchS from "../components/service/servicesContainer/Datex-smart-touch-S";
 import MDatexSmartTouchM from "../components/service/servicesContainer/MDatex-smart-touch-M";
 import PLCmodule from "../components/service/servicesContainer/PLC-module";
+
+import TechnoFill from "../components/product/productDescriptionsComponent/technoFill";
+import TechnoMix from "../components/product/productDescriptionsComponent/technoMix";
+import TechnoSalt from "../components/product/productDescriptionsComponent/technoSalt";
+import TechnoTwo from "../components/product/productDescriptionsComponent/technoTwo";
+
+
+
+
 // import Hi from "../../hi";
 
 
@@ -117,6 +126,12 @@ export default function Router() {
           <Route path = "/YarnDyeingMachine/hankSeries"  element={<HANKSeries />}></Route>
           <Route path = "/YarnDyeingMachine/sp110series"  element={<SP110Series />}></Route>
           <Route path = "/YarnDyeingMachine/spSimpleSeries"  element={<SPSimplexSeries />}></Route>
+
+          <Route path="/DispensingAutomation/TechnoFill" element= {<TechnoFill/>}></Route>
+          <Route path="/DispensingAutomation/TechnoMix" element= {<TechnoMix/>}></Route>
+          <Route path="/DispensingAutomation/TechnoSalt" element= {<TechnoSalt/>}></Route>
+          <Route path="/DispensingAutomation/TechnoTwo" element= {<TechnoTwo/>}></Route>
+
 
         </Route>
       </Routes>
