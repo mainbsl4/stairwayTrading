@@ -48,15 +48,24 @@ import TEXAIR from "../components/product/productDescriptionsComponent/TEXAIR";
 import ZP400 from "../components/product/productDescriptionsComponent/ZP400";
 import ZP400Hydro from "../components/product/productDescriptionsComponent/ZP400Hydro";
 import CEL_CES_CR from "../components/product/productDescriptionsComponent/CEL_CES-CR";
-import DATEXPLCMASTER841616 from "../components/service/servicesContainer/DATEX-PLC-MASTER-841616";
-import DatexSmartTouchS from "../components/service/servicesContainer/Datex-smart-touch-S";
-import MDatexSmartTouchM from "../components/service/servicesContainer/MDatex-smart-touch-M";
-import PLCmodule from "../components/service/servicesContainer/PLC-module";
+
 
 import TechnoFill from "../components/product/productDescriptionsComponent/technoFill";
 import TechnoMix from "../components/product/productDescriptionsComponent/technoMix";
 import TechnoSalt from "../components/product/productDescriptionsComponent/technoSalt";
 import TechnoTwo from "../components/product/productDescriptionsComponent/technoTwo";
+
+
+// import DATEXPLCMASTER841616 from "../components/service/servicesContainer/AtlantisPct900";
+// import DatexSmartTouchS from "../components/service/servicesContainer/AtlantisPct300";
+// import MDatexSmartTouchM from "../components/service/servicesContainer/MDatex-smart-touch-M";
+// import PLCmodule from "../components/service/servicesContainer/PLC-module";
+
+
+import AtlantisPct310 from "../components/service/servicesContainer/AtlantisPct310";
+import AtlantisPct300 from "../components/service/servicesContainer/AtlantisPct300";
+import AtlantisPct900 from "../components/service/servicesContainer/AtlantisPct900";
+import AtlantisCodesys from "../components/service/servicesContainer/AtlantisCodesys";
 
 
 
@@ -112,10 +121,16 @@ export default function Router() {
           {/* <Route path = "/Hi"  element={<SoftWindingMachine />}></Route>
           <Route path = "/Hi"  element={<HardWindingMachine />}></Route> */}
 
-          <Route path = "/AutomationandRetrofit/MDatexSmartTouchM"  element={<MDatexSmartTouchM />}></Route>
+          {/* <Route path = "/AutomationandRetrofit/MDatexSmartTouchM"  element={<MDatexSmartTouchM />}></Route>
           <Route path = "/AutomationandRetrofit/DatexSmartTouchS"  element={<DatexSmartTouchS />}></Route>
           <Route path = "/AutomationandRetrofit/DATEXPLCMASTER841616"  element={<DATEXPLCMASTER841616 />}></Route>
-          <Route path = "/AutomationandRetrofit/PLCmodule"  element={<PLCmodule />}></Route>
+          <Route path = "/AutomationandRetrofit/PLCmodule"  element={<PLCmodule />}></Route> */}
+
+
+          <Route path = "/AutomationandRetrofit/pct310"  element={<AtlantisPct310 />}></Route>
+          <Route path = "/AutomationandRetrofit/pct300"  element={<AtlantisPct300 />}></Route>
+          <Route path = "/AutomationandRetrofit/pct900"  element={<AtlantisPct900 />}></Route>
+          <Route path = "/AutomationandRetrofit/codesys"  element={<AtlantisCodesys />}></Route>
 
           <Route path = "/WindingMachine/hardWindingMachine"  element={<HardWindingMachine />}></Route>
           <Route path = "/WindingMachine/softWindingMachine"  element={<SoftWindingMachine />}></Route>

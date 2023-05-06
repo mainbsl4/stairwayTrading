@@ -900,8 +900,6 @@ input[type=text], select {
     drop-shadow(3px 3px 15px #0001)
     drop-shadow(-1px -1px 10px #ffffff)
     drop-shadow(-1px -1px 5px #ffffff);
-
-
 }
 
 .productDescriptionContainer .aaa .link span{
@@ -959,11 +957,11 @@ input[type=text], select {
     /* background-color: red; */
     padding: 15px 0px;
     border-radius: 5px;
-    box-shadow:  4px 4px 5px 0px #0001, 
+    /* box-shadow:  4px 4px 5px 0px #0001, 
     5px 5px 15px 0px #0001,
     6px 6px 15px 0px #0001,
     -7px -7px 15px 0px #ffffff,
-    -4px -4px 5px 0px #ffffff;
+    -4px -4px 5px 0px #ffffff; */
 }
 
 .productDescriptionContainer .detailsContainer .productImage img{
@@ -985,7 +983,7 @@ input[type=text], select {
 .productDescriptionContainer .detailsContainer .productSpecification p{
     /* border-bottom: 1px solid #ced6e0; */
     word-wrap: break-word;
-    
+
     /* width: 100px !important; */
     /* padding: 0px 10px; */
     /* height: 100px; */
@@ -1528,8 +1526,8 @@ input[type=text], select {
     }
 
 
-    .miniImgSec .ImgBody:nth-child(3),
-    .miniImgSec .ImgBody:nth-child(4) {
+    .miniImgSec .Link:nth-child(3),
+    .miniImgSec .Link:nth-child(4) {
         /* height: auto;
         border-radius: 20px;
         overflow: hidden;
@@ -1541,7 +1539,7 @@ input[type=text], select {
         inset 0px 0px 0px 0px #fff9, 
         inset 0px 0px 0px 0px #0001, 
         inset 0px 0px 0px 0px #0001; */
-        margin-top: 25px;
+        margin-top: 50px;
     }
 
 
@@ -1729,7 +1727,7 @@ input[type=text], select {
     }
 
 
-    .miniImgSec .ImgBody:not(:nth-child(1)){
+    .miniImgSec .Link:not(:nth-child(1)){
         /* height: auto;
         border-radius: 20px;
         overflow: hidden;
@@ -1741,7 +1739,7 @@ input[type=text], select {
         inset 0px 0px 0px 0px #fff9, 
         inset 0px 0px 0px 0px #0001, 
         inset 0px 0px 0px 0px #0001; */
-        margin-top: 25px;
+        margin-top: 45px;
     }
 
     .startSection .discriptionBox{
@@ -1750,13 +1748,13 @@ input[type=text], select {
 
 
 
-        /* ConsultancySection */
+    /* ConsultancySection */
 
-        .ConsultancySection .discriptionBox{
-            width: 85%;
-        }
+    .ConsultancySection .discriptionBox{
+        width: 85%;
+    }
     
-        /* ConsultancySection */
+    /* ConsultancySection */
 
 
     /* SparePartsSection */

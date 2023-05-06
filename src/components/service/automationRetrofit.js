@@ -5,10 +5,10 @@ import PartnersCard from "../smallSections/partnersCard";
 
 
 // image 
-import DATEX_SMART_TOUCH_M from "../../assets/Service/AUTOMATION_RETTROFIT/DATEX_SMART_TOUCH_M.png";
-import datexSmartTouch_S from "../../assets/Service/AUTOMATION_RETTROFIT/datex-smart-touch-s.png";
-import plc_master from "../../assets/Service/AUTOMATION_RETTROFIT/plc-master.png";
-import SAplc_modul_ioLCE from "../../assets/Service/AUTOMATION_RETTROFIT/plc-modul-io.png";
+import atlantis_pct310 from "../../assets/Service/AUTOMATION_RETTROFIT/EAS/atlantis_pct310.png";
+import atlantis_pct300 from "../../assets/Service/AUTOMATION_RETTROFIT/EAS/atlantis_pct300.jpg";
+import atlantis_pct900 from "../../assets/Service/AUTOMATION_RETTROFIT/EAS/atlantis_pct900.png";
+import atlantis_codesys from "../../assets/Service/AUTOMATION_RETTROFIT/EAS/atlantis_codesys.png";
 
 // image 
 
@@ -36,10 +36,10 @@ function AutomationRetrofit () {
                         <p>We have experience with a lot of successfully handed over retrofit jobs. Our engineers are get trained from Europe and have enough expertise on conversion with world latest controller & PLC's. We do modernize any kind of dyeing machine, Stenter, Dryer, ETP, STP., etc.</p>
                     </div>
                     <div className = "CardBody">
-                        <Link className = "productLink" to='/AutomationandRetrofit/MDatexSmartTouchM'><PartnersCard image={DATEX_SMART_TOUCH_M} head = {"MDatex-smart-touch-M"} body ={"Controller for the production dyeing machine."} /></Link>
-                        <Link className = "productLink" to='/AutomationandRetrofit/DatexSmartTouchS'><PartnersCard image={datexSmartTouch_S} head = {"Datex-smart-touch-S"} body ={`"Display: 7,0" TFT, color touchscreen, Internal I/O"`} /></Link>
-                        <Link className = "productLink" to='/AutomationandRetrofit/DATEXPLCMASTER841616'><PartnersCard image={plc_master} head = {"DATEX PLC MASTER 841616"} body ={"Interface: Modbus RTU (USB)"} /></Link>
-                        <Link className = "productLink" to='/AutomationandRetrofit/PLCmodule'><PartnersCard image={SAplc_modul_ioLCE} head = {"PLC-module"} body ={"Digital & analog I/O"} /></Link>
+                        <Link className = "productLink" to='/AutomationandRetrofit/pct310'><PartnersCard image={atlantis_pct310} head = {"PCT-310"} body ={"Maximum power and incredible performance in 10”"} /></Link>
+                        <Link className = "productLink" to='/AutomationandRetrofit/pct300'><PartnersCard image={atlantis_pct300} head = {"PCT-300 Stand Alone"} body ={`The best ally for weaving and finishing`} /></Link>
+                        <Link className = "productLink" to='/AutomationandRetrofit/pct900'><PartnersCard image={atlantis_pct900} head = {"PCT-900"} body ={"The industrial controller par excellence"} /></Link>
+                        <Link className = "productLink" to='/AutomationandRetrofit/codesys'><PartnersCard image={atlantis_codesys} head = {"Codeasy"} body ={"State-of-the-art technology for textile automation"} /></Link>
                     </div>  
                     {/* <i>CEO/STAIRWAY</i> */}
                 </div>

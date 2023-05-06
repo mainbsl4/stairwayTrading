@@ -1,6 +1,6 @@
 
 
-import productImage from "../../../assets/products/Yarn Dyeing/CarrierDesctip.png";
+import productImage from "../../../assets/products/DispensingAutomation/TechnoFill.png";
 
 
 //import for banner image 
@@ -16,27 +16,27 @@ function TechnoFill (){
             <BannerOrMiniImage banner = {backgroundImage}/>
             <div className="productDescriptionContainer mt-5">
                 <div className="linkBody">
-                    <Link className="link" to="/YarnDyeingMachine/gseSeries"><span>GSE – Series</span></Link>
-                    <Link className="link" to="/YarnDyeingMachine/gshSeries"><span>GSH – Series</span></Link>
-                    <Link className="link" to="/YarnDyeingMachine/sp110series"><span>SP110 – Series</span></Link>
-                    <Link className="link" to="/YarnDyeingMachine/spSimpleSeries"><span>SP Simplex – Series</span></Link>
-                    <Link className="link" to="/YarnDyeingMachine/hankSeries"><span>HANK – Series</span></Link>
-                    <Link className="link" to="/YarnDyeingMachine/carriers"><span>Carriers</span></Link>
+                    <Link className="link" to="/DispensingAutomation/TechnoTwo"><span>TrchnoTwo</span></Link>
+                    <Link className="link" to="/DispensingAutomation/TechnoMix"><span>TechnoMix</span></Link>
+                    <Link className="link" to="/DispensingAutomation/TechnoSalt"><span>TechnoSalt</span></Link>
+                    <Link className="link" to="/DispensingAutomation/TechnoFill"><span>TechnoFill</span></Link>
+                    {/* <Link className="link" to="/YarnDyeingMachine/hankSeries"><span>HANK – Series</span></Link> */}
+                    {/* <Link className="link" to="/YarnDyeingMachine/carriers"><span>Carriers</span></Link> */}
                 </div>
 
                 <div className="detailsContainer">
                     <div className="productModleAndDetails">
-                        <h4>Carriers</h4>
-                        <p>Carriers for used to dye material like: yarn on packages, muffs, fabric on beams, loose fibers, tops, ribbons.</p>
+                        <h4>TECHNOFILL</h4>
+                        <p>TecnoFill is the complete solution designed by EAS conceived to optimize the loading, management and storage of chemical products and liquid auxiliaries.</p>
                     </div>
 
                     <div className="productImage">
-                        <img style={{width:"75%"}} src = {productImage} alt="MODULAB SBM"/>
+                        <img src = {productImage} alt="MODULAB SBM"/>
                     </div>
 
                     <div className="productSpecification">
                         <h4>Specification</h4>
-                        <p>UGOLINI – Italy</p>
+                        <p>TecnoFill carries out the loading and storage of the different chemical products that arrive through the supplier in a comfortable and simple way. Its loading lance is connected to a membrane pump that is responsible for sucking all the product and transporting it to the storage tanks equipped with level probes that allow the analogue level of the product to be verified, generating an on-line inventory. Once the load is done, TecnoFill manages a washing of the loading lance, leaving it ready for a new product load.</p>
                     </div>
                 </div>
             </div>

@@ -13,29 +13,29 @@ function BannerOrMiniImage(props){
                 <img src={props.banner} alt="banner"/>
             </div>
 
-            <div className="miniImgSec">
-                <Link to="/Hi">
+            <div className="miniImgSec mt-5">
+                <Link className="Link" to="/Hi">
                     <div className="ImgBody">
                         <div className="shadow"></div>
                         <div className="bottomTitle">NEWS</div>
                         {/* <img src={img1} alt="miniImg"/> */}
                     </div>
                 </Link>
-                <Link to="/Hi">
+                <Link className="Link" to="/Hi">
                     <div className="ImgBody">
                         <div className="shadow"></div>
                         <div className="bottomTitle">Company</div>
                         {/* <img src={img2} alt="miniImg"/> */}
                     </div>
                 </Link>
-                <Link to="/Hi">
+                <Link className="Link" to="/Hi">
                     <div className="ImgBody">
                         <div className="shadow"></div>
                         <div className="bottomTitle">Products</div>
                         {/* <img src={img3} alt="miniImg"/> */}
                     </div>
                 </Link>
-                <Link to="/Hi">
+                <Link className="Link" to="/Hi">
                     <div className="ImgBody">
                         <div className="shadow"></div>
                         <div className="bottomTitle">Contact</div>
