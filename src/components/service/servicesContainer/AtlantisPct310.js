@@ -1,7 +1,4 @@
-
-
 import productImage from "../../../assets/Service/AUTOMATION_RETTROFIT/EAS/atlantis_pct310.png";
-
 
 //import for banner image 
 import backgroundImage from "../../../assets/backgroundImage/Automation-and-Retrofit-StairWay-Trading.jpg";

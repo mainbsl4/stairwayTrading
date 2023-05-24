@@ -40,7 +40,7 @@ function AutomationRetrofit () {
                         <Link className = "productLink" to='/AutomationandRetrofit/pct300'><PartnersCard image={atlantis_pct300} head = {"PCT-300 Stand Alone"} body ={`The best ally for weaving and finishing`} /></Link>
                         <Link className = "productLink" to='/AutomationandRetrofit/pct900'><PartnersCard image={atlantis_pct900} head = {"PCT-900"} body ={"The industrial controller par excellence"} /></Link>
                         <Link className = "productLink" to='/AutomationandRetrofit/codesys'><PartnersCard image={atlantis_codesys} head = {"Codeasy"} body ={"State-of-the-art technology for textile automation"} /></Link>
-                    </div>  
+                    </div>
                     {/* <i>CEO/STAIRWAY</i> */}
                 </div>
             </div>

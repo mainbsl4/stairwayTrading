@@ -34,8 +34,8 @@ function Contact () {
     <div class="info-box mb-4">
       <i class="bx bx-map"></i>
       <h3>Address</h3>
-      <p>_____, _____, _____, <br/>
-      ____________________</p>
+      <p>House-39, Road-11, Sector-13 <br/>
+        Uttra</p>
     </div>
   </div>
 
@@ -43,8 +43,7 @@ function Contact () {
     <div class="info-box  mb-4">
       <i class="bx bx-envelope"></i>
       <h3>Email</h3>
-      <p>_______________<br/>
-      _______________</p>
+      <p>info@stairwaytd.com</p>
     </div>
   </div>
 
@@ -52,8 +51,9 @@ function Contact () {
     <div class="info-box  mb-4">
       <i class="bx bx-phone-call"></i>
       <h3>Call</h3>
-      <p> +8801xxxxxxxxx</p>
-       <p> +8801xxxxxxxx</p>
+      {/* <p> +8801712823868</p> */}
+       {/* <p> +8801xxxxxxxx</p> */}
+       <a href="tel:+880171-282-3868">+8801712823868</a>
     </div>
   </div>
 

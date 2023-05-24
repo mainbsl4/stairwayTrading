@@ -17,7 +17,7 @@ import HydroExtractor from "../components/product/hydroExtractor";
 import WindingMachine from "../components/product/windingMachine";
 import DispensingAutomation from "../components/product/dispensingAutomation";
 import HitRecoverySysten from "../components/product/hitRecoverySysten";
-import TextileERP from "../components/product/textileERP";
+import Software from "../components/product/software";
 import IndigoManitoringSystem from "../components/product/indigoManitoringSystem";
 import AutomaticInspectionPacking from "../components/product/automaticInspectionPacking";
 import AutomationRetrofit from "../components/service/automationRetrofit";
@@ -68,6 +68,16 @@ import AtlantisPct900 from "../components/service/servicesContainer/AtlantisPct9
 import AtlantisCodesys from "../components/service/servicesContainer/AtlantisCodesys";
 
 
+// Automatic inspection & Packing
+import Accessories from "../components/product/productDescriptionsComponent/Accessories";
+import ConvertingMachines from "../components/product/productDescriptionsComponent/ConvertingMachines";
+import FabricFeedingMachinesForPrintingMachines from "../components/product/productDescriptionsComponent/FabricFeedingMachinesForPrintingMachines";
+import InspectionMachines from "../components/product/productDescriptionsComponent/InspectionMachines";
+import PackingMachines from "../components/product/productDescriptionsComponent/PackingMachines";
+import RobotForPalletizationAndSegregationOfTheRolls from "../components/product/productDescriptionsComponent/RobotForPalletizationAndSegregationOfTheRolls";
+// Automatic inspection & Packing
+
+
 
 
 // import Hi from "../../hi";
@@ -93,7 +103,7 @@ export default function Router() {
           <Route path = "WindingMachine" element={<WindingMachine />} />
           <Route path = "DispensingAutomation" element={<DispensingAutomation />} />
           <Route path = "HitRecoverySystem" element={<HitRecoverySysten />} />
-          <Route path = "TextileERP" element={<TextileERP />} />
+          <Route path = "Software" element={<Software />} />
           <Route path = "IndigoMonitoringSystem" element={<IndigoManitoringSystem />} />
           <Route path = "AutomaticInsprection&Packing" element={<AutomaticInspectionPacking />} />
           <Route path = "AutomationandRetrofit" element={<AutomationRetrofit />} />
@@ -126,7 +136,6 @@ export default function Router() {
           <Route path = "/AutomationandRetrofit/DATEXPLCMASTER841616"  element={<DATEXPLCMASTER841616 />}></Route>
           <Route path = "/AutomationandRetrofit/PLCmodule"  element={<PLCmodule />}></Route> */}
 
-
           <Route path = "/AutomationandRetrofit/pct310"  element={<AtlantisPct310 />}></Route>
           <Route path = "/AutomationandRetrofit/pct300"  element={<AtlantisPct300 />}></Route>
           <Route path = "/AutomationandRetrofit/pct900"  element={<AtlantisPct900 />}></Route>
@@ -146,6 +155,19 @@ export default function Router() {
           <Route path="/DispensingAutomation/TechnoMix" element= {<TechnoMix/>}></Route>
           <Route path="/DispensingAutomation/TechnoSalt" element= {<TechnoSalt/>}></Route>
           <Route path="/DispensingAutomation/TechnoTwo" element= {<TechnoTwo/>}></Route>
+
+
+          {/* Automatic inspection & Packing */}
+          <Route path="/AutomaticInsprection&Packing/Accessories" element= {<Accessories/>}></Route>
+          <Route path="/AutomaticInsprection&Packing/ConvertingMachines" element= {<ConvertingMachines/>}></Route>
+          <Route path="/AutomaticInsprection&Packing/FabricFeedingMachinesForPrintingMachines" element= {<FabricFeedingMachinesForPrintingMachines/>}></Route>
+          <Route path="/AutomaticInsprection&Packing/InspectionMachines" element= {<InspectionMachines/>}></Route>
+          <Route path="/AutomaticInsprection&Packing/PackingMachines" element= {<PackingMachines/>}></Route>
+          <Route path="/AutomaticInsprection&Packing/RobotForPalletizationAndSegregationOfTheRolls" element= {<RobotForPalletizationAndSegregationOfTheRolls/>}></Route>
+
+
+          {/* Automatic inspection & Packing */}
+
 
 
         </Route>
