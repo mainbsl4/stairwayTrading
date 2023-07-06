@@ -36,10 +36,10 @@ function AutomationRetrofit () {
                         <p>We have experience with a lot of successfully handed over retrofit jobs. Our engineers are get trained from Europe and have enough expertise on conversion with world latest controller & PLC's. We do modernize any kind of dyeing machine, Stenter, Dryer, ETP, STP., etc.</p>
                     </div>
                     <div className = "CardBody">
-                        <Link className = "productLink" to='/AutomationandRetrofit/pct310'><PartnersCard image={atlantis_pct310} head = {"PCT-310"} body ={"Maximum power and incredible performance in 10”"} /></Link>
-                        <Link className = "productLink" to='/AutomationandRetrofit/pct300'><PartnersCard image={atlantis_pct300} head = {"PCT-300 Stand Alone"} body ={`The best ally for weaving and finishing`} /></Link>
-                        <Link className = "productLink" to='/AutomationandRetrofit/pct900'><PartnersCard image={atlantis_pct900} head = {"PCT-900"} body ={"The industrial controller par excellence"} /></Link>
-                        <Link className = "productLink" to='/AutomationandRetrofit/codesys'><PartnersCard image={atlantis_codesys} head = {"Codeasy"} body ={"State-of-the-art technology for textile automation"} /></Link>
+                        <Link className = "productLink" to = '/AutomationandRetrofit/pct310'><PartnersCard image={atlantis_pct310} head = {"PCT-310"} body ={"Maximum power and incredible performance in 10”"} /></Link>
+                        <Link className = "productLink" to = '/AutomationandRetrofit/pct300'><PartnersCard image={atlantis_pct300} head = {"PCT-300 Stand Alone"} body ={`The best ally for weaving and finishing`} /></Link>
+                        <Link className = "productLink" to = '/AutomationandRetrofit/pct900'><PartnersCard image={atlantis_pct900} head = {"PCT-900"} body ={"The industrial controller par excellence"} /></Link>
+                        <Link className = "productLink" to = '/AutomationandRetrofit/codesys'><PartnersCard image={atlantis_codesys} head = {"Codeasy"} body ={"State-of-the-art technology for textile automation"} /></Link>
                     </div>
                     {/* <i>CEO/STAIRWAY</i> */}
                 </div>

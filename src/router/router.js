@@ -75,8 +75,14 @@ import FabricFeedingMachinesForPrintingMachines from "../components/product/prod
 import InspectionMachines from "../components/product/productDescriptionsComponent/InspectionMachines";
 import PackingMachines from "../components/product/productDescriptionsComponent/PackingMachines";
 import RobotForPalletizationAndSegregationOfTheRolls from "../components/product/productDescriptionsComponent/RobotForPalletizationAndSegregationOfTheRolls";
+
 // Automatic inspection & Packing
 
+
+// software
+import InfoTint from "../components/product/productDescriptionsComponent/InfoTint";
+import TexDrive from "../components/product/productDescriptionsComponent/TexDrive";
+// software
 
 
 
@@ -167,6 +173,14 @@ export default function Router() {
 
 
           {/* Automatic inspection & Packing */}
+
+
+
+          {/* Software */}
+          <Route path="/Software/InfoTint" element={<InfoTint/>}></Route>
+          <Route path="/Software/TexDrive" element={<TexDrive/>}></Route>
+          {/* Software */}
+
 
 
 

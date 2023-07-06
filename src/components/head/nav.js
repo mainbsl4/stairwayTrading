@@ -88,7 +88,7 @@ const blankLink = "#";
                             <Link className="dropDownLink" to = "/WindingMachine">Winding Machine</Link>
                             <Link className="dropDownLink" to = "/DispensingAutomation">Dispensing Automation</Link>
                             <Link className="dropDownLink" to = "/HitRecoverySystem">Hit Recovery System</Link>
-                            <Link className="dropDownLink" to = "/TextileERP">Textile ERP</Link>
+                            <Link className="dropDownLink" to = "/Software">Software</Link>
                             <Link className="dropDownLink" to = "/IndigoMonitoringSystem">Indigo Monitoring System</Link>
                             <Link className="dropDownLink" to = "/AutomaticInsprection&Packing">Automatic Insprection & Packing</Link>
                         </div>
